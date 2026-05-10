@@ -1,0 +1,314 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VoiceBridge V2</title>
+    <style>
+      :root {
+        --bg: #101418;
+        --panel: #171e26;
+        --panel-2: #111820;
+        --line: #2a3644;
+        --text: #eef4fb;
+        --muted: #96a5b5;
+        --accent: #43d1b8;
+        --accent-2: #ffd166;
+        --danger: #ff6b7a;
+        --ok: #71f79f;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        color: var(--text);
+        background:
+          radial-gradient(circle at 12% 12%, rgba(67,209,184,.18), transparent 32%),
+          linear-gradient(140deg, #0d1117, #121a22 60%, #0b1116);
+        font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      }
+      .wrap { max-width: 1120px; margin: 20px auto; padding: 0 14px 40px; }
+      .card, .block {
+        background: rgba(23,30,38,.96);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 14px;
+      }
+      h1 { margin: 0 0 6px; font-size: 30px; }
+      h2 { margin: 0 0 10px; font-size: 18px; }
+      .muted { color: var(--muted); }
+      .status { margin: 12px 0 14px; font-size: 28px; font-weight: 800; color: var(--accent); }
+      .status.recording { color: var(--danger); }
+      .tabs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 14px 0; }
+      button {
+        border: 0;
+        border-radius: 10px;
+        padding: 10px 12px;
+        background: #263545;
+        color: var(--text);
+        font-size: 15px;
+        font-weight: 700;
+        cursor: pointer;
+      }
+      button.primary { background: linear-gradient(120deg, #43d1b8, #2fb7e8); color: #031416; }
+      button.warn { background: #463f26; color: #ffe4a3; border: 1px solid #7b6634; }
+      button.danger { background: #472832; color: #ffc2ca; border: 1px solid #7d3a4a; }
+      button.active { outline: 2px solid var(--accent); background: #1b3f45; }
+      button:disabled { opacity: .45; cursor: not-allowed; }
+      .hold { width: 100%; padding: 18px; font-size: 24px; margin: 10px 0 12px; }
+      .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+      .stats { display: grid; grid-template-columns: repeat(4, minmax(120px, 1fr)); gap: 8px; }
+      .stat { background: var(--panel-2); border: 1px solid #27384a; border-radius: 10px; padding: 9px; }
+      .stat .k { color: var(--muted); font-size: 12px; }
+      .stat .v { color: var(--accent); font-size: 22px; font-weight: 800; }
+      select, input {
+        width: 100%; border-radius: 10px; border: 1px solid var(--line);
+        background: #0d141b; color: var(--text); padding: 9px; font-size: 15px;
+      }
+      .mode-panel { display: none; }
+      .mode-panel.active { display: block; }
+      .phrase-grid { display: grid; grid-template-columns: repeat(4, minmax(120px, 1fr)); gap: 8px; }
+      .phrase-card { background: #101922; border: 1px solid #26394c; border-radius: 10px; padding: 8px; font-size: 13px; }
+      .phrase-card.stage { border-color: rgba(67,209,184,.65); }
+      .result-line { font-size: 17px; line-height: 1.7; }
+      audio { width: 100%; margin-top: 8px; }
+      pre { margin: 0; white-space: pre-wrap; word-break: break-word; font-size: 12px; line-height: 1.45; color: #bdd0df; max-height: 260px; overflow: auto; }
+      details { margin-top: 12px; background: #10161e; border: 1px solid var(--line); border-radius: 12px; padding: 10px; }
+      summary { cursor: pointer; font-weight: 800; }
+      table { width: 100%; border-collapse: collapse; font-size: 12px; }
+      th, td { border-bottom: 1px solid #26384a; padding: 6px 4px; text-align: left; }
+      th { color: #a7b8c9; }
+      .toolbar { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+      .workbench-summary { font-size: 13px; color: var(--muted); margin-top: 8px; }
+      .workbench-layout { display: grid; grid-template-columns: 1fr; gap: 10px; margin-top: 10px; min-width: 0; }
+      .workbench-card {
+        background: #0f1720;
+        border: 1px solid #2a3848;
+        border-radius: 10px;
+        padding: 10px;
+        min-width: 0;
+      }
+      .workbench-card h3 { margin: 0 0 6px; font-size: 14px; }
+      .eval-errors { max-height: 260px; overflow: auto; border: 1px solid var(--line); border-radius: 10px; margin-top: 10px; }
+      .eval-errors table { min-width: 920px; }
+      .pending-corrections { max-height: 180px; overflow: auto; border: 1px solid #2a3848; border-radius: 8px; margin-top: 8px; }
+      .pending-corrections table { min-width: 680px; }
+      .feedback-line {
+        min-height: 22px;
+        margin-top: 8px;
+        color: #9fd8ff;
+        font-size: 13px;
+      }
+      .chip {
+        display: inline-block;
+        padding: 2px 8px;
+        border-radius: 999px;
+        border: 1px solid #325068;
+        background: #122331;
+        color: #9fd8ff;
+        font-size: 11px;
+      }
+      .chip.err { border-color: #6a3744; background: #311721; color: #ffb9c2; }
+      .chip.warn { border-color: #6c6338; background: #302914; color: #ffe4a3; }
+      @media (max-width: 900px) {
+        .grid, .tabs { grid-template-columns: 1fr; }
+        .stats, .phrase-grid { grid-template-columns: 1fr 1fr; }
+        .eval-errors table,
+        .pending-corrections table { min-width: 640px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card">
+        <h1>VoiceBridge V2</h1>
+        <div class="muted">干净数据优先：训练、评估、演示三条链路彻底分开。</div>
+        <div id="status" class="status">V3 待机</div>
+
+        <div class="tabs">
+          <button id="modeTrain" class="active">1. 采集训练样本</button>
+          <button id="modeEval">2. 正式评估</button>
+          <button id="modeUnknown">3. 负样本测试（不要说四句）</button>
+          <button id="modeDemo">4. 演示推理</button>
+        </div>
+
+        <button id="holdBtn" class="hold primary">按住录音（空格也可）</button>
+
+        <div id="trainPanel" class="mode-panel active">
+          <div class="grid">
+            <div class="block">
+              <h2>训练采集</h2>
+              <div class="muted">先选短句，再录 15 条。训练样本只进入 <b>data_v3/train</b>。</div>
+              <div style="margin-top:10px;"><select id="trainPhraseSelect"></select></div>
+              <div class="result-line">当前训练进度：<span id="trainProgress">-</span></div>
+              <div class="muted">建议先做舞台 4 句：你好 / 我想喝水 / 我想吃饭 / 请帮我。</div>
+            </div>
+            <div class="block">
+              <h2>本次训练入库</h2>
+              <div id="trainResult" class="result-line">还没有录入。</div>
+              <audio id="rawAudio" controls></audio>
+            </div>
+          </div>
+        </div>
+
+        <div id="evalPanel" class="mode-panel">
+          <div class="grid">
+            <div class="block">
+              <h2>正式评估</h2>
+              <div class="muted">这里的下拉框是 <b>评分标签</b>，不是给模型的提示。必须选择你接下来真的要说的句子；如果选“请帮我”却说“我想喝水”，这条评估会被污染。</div>
+              <div style="margin-top:10px;"><select id="evalPhraseSelect"></select></div>
+              <div class="result-line">当前评估进度：<span id="evalProgress">-</span></div>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px;">
+                <button id="quickConfirmCorrectionsBtn" class="warn">确认合并纠错</button>
+                <button id="resetEvalBtn" class="danger">开始新一轮评估</button>
+              </div>
+              <div id="evalCorrectionResult" class="feedback-line">评估纠错结果将在这里显示。</div>
+            </div>
+            <div class="block">
+              <h2>评估报告</h2>
+              <div class="stats">
+                <div class="stat"><div class="k">Eval总数</div><div id="evalTotal" class="v">0</div></div>
+                <div class="stat"><div class="k">Top1</div><div id="evalTop1" class="v">0%</div></div>
+                <div class="stat"><div class="k">Top2</div><div id="evalTop2" class="v">0%</div></div>
+                <div class="stat"><div class="k">拒识率</div><div id="evalReject" class="v">0%</div></div>
+              </div>
+              <div id="runtimeConfigHint" class="muted" style="margin-top:8px;">策略读取中...</div>
+              <pre id="evalReport" style="margin-top:10px;">暂无评估报告。</pre>
+              <details style="margin-top:10px;">
+                <summary>错题工作台（解释先行 + 批量回灌）</summary>
+                <div id="evalAdviceCard" class="workbench-summary">暂无错题建议。</div>
+                <div class="toolbar">
+                  <select id="evalErrorFilter" style="max-width:220px;">
+                    <option value="all">全部</option>
+                    <option value="accepted_wrong">误判（已接收）</option>
+                    <option value="rejected">拒识</option>
+                    <option value="low_margin">低 margin</option>
+                  </select>
+                  <button id="refreshErrorsBtn">刷新错题</button>
+                  <button id="addSelectedErrorsBtn" class="warn">加入纠错池（仅勾选项）</button>
+                  <button id="confirmSelectedErrorsBtn">确认合并纠错</button>
+                </div>
+                <div class="workbench-layout">
+                  <div class="workbench-card">
+                    <h3>当前错题重录任务（强制5遍）</h3>
+                    <div id="rerecordTaskSummary" class="workbench-summary">当前没有进行中的错题重录任务。</div>
+                    <div class="toolbar" style="margin-top:8px;">
+                      <button id="workbenchRecordBtn" class="primary" disabled>在工作台录制重录样本</button>
+                    </div>
+                    <div id="workbenchRecordHint" class="workbench-summary">错判后会自动创建重录任务，然后可在这里直接录制，不用切换位置。</div>
+                    <div class="pending-corrections">
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>样本ID</th>
+                            <th>真值</th>
+                            <th>创建时间</th>
+                            <th>音频</th>
+                            <th>操作</th>
+                          </tr>
+                        </thead>
+                        <tbody id="rerecordPendingBody"></tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="workbench-card">
+                    <div id="evalWorkbenchSummary" class="workbench-summary">未加载错题。</div>
+                    <div class="eval-errors">
+                      <table>
+                        <thead>
+                          <tr>
+                            <th><input id="selectAllErrors" type="checkbox" /></th>
+                            <th>真值</th>
+                            <th>预测</th>
+                            <th>margin</th>
+                            <th>reject_reason</th>
+                            <th>诊断</th>
+                            <th>建议</th>
+                            <th>音频</th>
+                          </tr>
+                        </thead>
+                        <tbody id="evalErrorsBody"></tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </details>
+            </div>
+          </div>
+        </div>
+
+        <div id="unknownPanel" class="mode-panel">
+          <div class="grid">
+            <div class="block">
+              <h2>负样本测试（不要说四句）</h2>
+              <div class="muted">这里不是正常识别测试，用于观察四句之外声音是被拒识还是误接受，以及误触发方向。</div>
+              <button id="resetUnknownBtn" class="danger" style="width:100%;margin-top:10px;">清空负样本测试</button>
+            </div>
+            <div class="block">
+              <h2>负样本报告</h2>
+              <div class="stats">
+                <div class="stat"><div class="k">负样本总数</div><div id="unknownTotal" class="v">0</div></div>
+                <div class="stat"><div class="k">误接受率</div><div id="unknownFalseAccept" class="v">0%</div></div>
+                <div class="stat"><div class="k">正确拒识</div><div id="unknownCorrectReject" class="v">0</div></div>
+              </div>
+              <div class="muted" style="margin-top:8px;">用于观察 open-set 风险和拒识门控效果，指导后续补录与阈值迭代。</div>
+              <pre id="unknownReport" style="margin-top:10px;">暂无负样本报告。</pre>
+            </div>
+          </div>
+        </div>
+
+        <div id="demoPanel" class="mode-panel">
+          <div class="grid">
+            <div class="block">
+              <h2>演示推理</h2>
+              <div class="muted">这里只负责演示：录音 -> 命中 -> TTS。纠错只进入 corrections，不会自动污染训练库。</div>
+              <div class="result-line">预测：<span id="demoPred">-</span></div>
+              <div class="result-line">次选：<span id="demoSecond">-</span></div>
+              <div class="result-line">Top1分数：<span id="demoScore">-</span></div>
+              <div class="result-line">判定：<span id="demoReject">-</span></div>
+              <audio id="ttsAudio" controls></audio>
+            </div>
+            <div class="block">
+              <h2>如果错了，保存为纠正样本</h2>
+              <select id="correctionPhraseSelect"></select>
+              <button id="saveCorrectionBtn" class="warn" style="width:100%;margin-top:10px;">保存本次录音到 corrections</button>
+              <button id="confirmCorrectionsBtn" style="width:100%;margin-top:8px;">确认合并 corrections 到训练库</button>
+              <div id="correctionResult" class="muted" style="margin-top:8px;">未选择纠正。</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="block" style="margin-top:12px;">
+          <h2>V2 数据快照</h2>
+          <div id="phraseGrid" class="phrase-grid"></div>
+        </div>
+
+        <details>
+          <summary>高级工程区（审计 / 运维 / 日志）</summary>
+          <div class="grid" style="margin-top:10px;">
+            <div class="block">
+              <h2>运维动作</h2>
+              <select id="inputDeviceSelect"></select>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px;">
+                <button id="refreshBtn">刷新数据</button>
+                <button id="rebuildBtn">重建 V2 索引</button>
+              </div>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px;">
+                <button id="auditBtn">生成审计报告</button>
+                <button id="archiveBtn" class="warn">归档旧 data</button>
+              </div>
+            </div>
+            <div class="block">
+              <h2>日志</h2>
+              <pre id="logs"></pre>
+            </div>
+          </div>
+          <div class="block" style="margin-top:10px;">
+            <h2>审计报告</h2>
+            <pre id="auditReport">暂无。</pre>
+          </div>
+        </details>
+      </div>
+    </div>
+    <script src="/static/main.js?v=v27_workbench_rerecord_button_20260505" defer></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "voicebridge",
+  "private": true,
+  "version": "0.1.0",
+  "description": "VoiceBridge test frontend",
+  "scripts": {
+    "build:frontend": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}

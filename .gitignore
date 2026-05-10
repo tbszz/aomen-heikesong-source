@@ -1,0 +1,44 @@
+# Open-source safe ignore rules
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# OMX and local runtime state
+.omx/
+
+# Data / artifacts / logs
+logs/
+*.log
+*.jsonl
+*.wav
+*.mp3
+*.flac
+*.npy
+*.npz
+*.index
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# Project runtime/data folders
+/data/
+/data_*/
+/data_v*/
+/webui/audio/
+
+# Local temp outputs
+temp.wav
+tts_probe.wav
+tts_probe.mp3
+_rebuild_resp.json
+signature_db.json
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
