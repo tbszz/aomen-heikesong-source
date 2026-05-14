@@ -43,10 +43,10 @@ const TRAIN_TRANSFER_NAME = "voicebridge-mvp-train";
 const EVAL_TRANSFER_NAME = "voicebridge-mvp-eval";
 
 const DEFAULT_PHRASES = [
-  "hello",
-  "i want water",
-  "i want food",
-  "please help me"
+  "我想喝水。",
+  "我想吃饭啊。",
+  "请帮我啊。",
+  "我不舒服。"
 ];
 
 const SPEAKING_MODES = [
@@ -84,7 +84,6 @@ const TTS_ENABLED_KEY = "voicebridge.tts.enabled.v1";
 
 export function App() {
   const [stage, setStage] = useState<Stage>("record");
-  const [phrasesText, setPhrasesText] = useState(DEFAULT_PHRASES.join("\n"));
   const [selectedPhrase, setSelectedPhrase] = useState(DEFAULT_PHRASES[0]);
   const [selectedMode, setSelectedMode] = useState<SpeakingModeId>("normal");
   const [selectedSplit, setSelectedSplit] = useState<DataSplit>("train");
@@ -116,13 +115,7 @@ export function App() {
   const trainTransferRef = useRef<speechCommands.TransferSpeechCommandRecognizer | null>(null);
   const evalTransferRef = useRef<speechCommands.TransferSpeechCommandRecognizer | null>(null);
 
-  const phrases = useMemo(() => {
-    return phrasesText
-      .split(/\r?\n/)
-      .map((p) => p.trim())
-      .filter(Boolean)
-      .slice(0, 8);
-  }, [phrasesText]);
+  const phrases = useMemo(() => DEFAULT_PHRASES, []);
 
   useEffect(() => {
     localStorage.setItem(THRESHOLD_KEY, String(threshold));
@@ -165,19 +158,22 @@ export function App() {
         trainTransferRef.current = trainTransfer;
         evalTransferRef.current = evalTransfer;
 
-        const meta = readDatasetMeta();
-        if (meta?.phrases?.length) {
-          setPhrasesText(meta.phrases.join("\n"));
-          setSelectedPhrase(meta.phrases[0] ?? DEFAULT_PHRASES[0]);
-        }
-
+        setSelectedPhrase(DEFAULT_PHRASES[0]);
+        writeDatasetMeta({ phrases: DEFAULT_PHRASES, updatedAt: new Date().toISOString() });
         const localModeStats = readModeStats();
-        setModeStats(normalizeModeStats(localModeStats, meta?.phrases?.length ? meta.phrases : DEFAULT_PHRASES));
+        setModeStats(normalizeModeStats(localModeStats, DEFAULT_PHRASES));
 
         const evalSerialized = localStorage.getItem(EVAL_EXAMPLES_KEY);
         if (evalSerialized) {
           try {
             evalTransfer.loadExamples(base64ToArrayBuffer(evalSerialized), true);
+            const changed = pruneTransferDatasetToAllowedLabels(evalTransfer, [
+              ...DEFAULT_PHRASES,
+              NOISE_LABEL
+            ]);
+            if (changed) {
+              persistEvalExamples(evalTransfer);
+            }
           } catch (loadErr) {
             console.warn("Failed to load eval examples", loadErr);
           }
@@ -185,8 +181,15 @@ export function App() {
 
         const loadedTrainModel = await loadSavedModel(trainTransfer);
         if (loadedTrainModel) {
-          setStatus("Saved transfer model loaded from IndexedDB.");
-          setStage("use");
+          const valid = transferModelLabelsAllowed(trainTransfer.wordLabels(), DEFAULT_PHRASES);
+          if (!valid) {
+            await speechCommands.deleteSavedTransferModel(TRAIN_TRANSFER_NAME);
+            setStatus("Old saved model used removed labels and was deleted. Please retrain with current 4 phrases.");
+            setStage("record");
+          } else {
+            setStatus("Saved transfer model loaded from IndexedDB.");
+            setStage("use");
+          }
         } else {
           setStatus("Base model ready. Record train/eval samples for transfer learning.");
         }
@@ -509,14 +512,6 @@ export function App() {
     }
   }
 
-  function savePhraseTemplate() {
-    writeDatasetMeta({
-      phrases,
-      updatedAt: new Date().toISOString()
-    });
-    setStatus("Phrase template saved locally.");
-  }
-
   return (
     <main className="app-shell">
       <header className="hero">
@@ -544,22 +539,15 @@ export function App() {
         <section className="panel">
           <h2>Recording Page</h2>
           <p>
-            Pilot recommendation: exactly 4 short high-frequency sentences. Train target is {RECOMMENDED_TOTAL_PER_PHRASE}
+            Pilot recommendation: fixed 4 short high-frequency sentences. Train target is {RECOMMENDED_TOTAL_PER_PHRASE}
             per phrase ({MODE_TARGET_PER_STATE} x {SPEAKING_MODES.length} states).
           </p>
 
-          <textarea
-            className="phrase-input"
-            rows={7}
-            value={phrasesText}
-            onChange={(e) => setPhrasesText(e.target.value)}
-          />
-
           <div className="row">
-            <button onClick={savePhraseTemplate}>Save phrase template</button>
-            <span className={phrases.length === 4 ? "ok" : "warn"}>
-              Phrase count: {phrases.length} (target: 4)
-            </span>
+            <span className="ok">固定四句（已锁定）</span>
+            {phrases.map((phrase) => (
+              <span key={phrase} className="fixed-tag">{phrase}</span>
+            ))}
           </div>
 
           <div className="row">
@@ -897,6 +885,38 @@ function normalizeModeStats(stats: ModeStats, phrases: string[]): ModeStats {
   }
 
   return out;
+}
+
+function transferModelLabelsAllowed(labels: string[], allowedPhrases: string[]): boolean {
+  const allowed = new Set([NOISE_LABEL, ...allowedPhrases]);
+  for (const label of labels) {
+    if (!allowed.has(label)) {
+      return false;
+    }
+  }
+  return true;
+}
+
+function pruneTransferDatasetToAllowedLabels(
+  transfer: speechCommands.TransferSpeechCommandRecognizer,
+  allowedLabels: string[]
+): boolean {
+  const allowed = new Set(allowedLabels);
+  const metaLabels = transfer.getMetadata().wordLabels ?? [];
+  let changed = false;
+
+  for (const label of metaLabels) {
+    if (allowed.has(label)) {
+      continue;
+    }
+    const examples = transfer.getExamples(label);
+    for (const item of examples) {
+      transfer.removeExample(item.uid);
+      changed = true;
+    }
+  }
+
+  return changed;
 }
 
 function incrementModeStat(

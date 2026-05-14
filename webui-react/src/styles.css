@@ -116,6 +116,16 @@ button:disabled {
   padding: 10px;
 }
 
+.fixed-tag {
+  display: inline-block;
+  border: 1px solid #bfdbfe;
+  background: #eff6ff;
+  color: #1e3a8a;
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 13px;
+}
+
 .panel h2 {
   margin-top: 0;
 }

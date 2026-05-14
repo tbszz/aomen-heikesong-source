@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 from __future__ import annotations
 
 import asyncio
@@ -125,14 +125,10 @@ MIN_GAP_MULTIPLIER_MAX = 1.6
 ALNUM_CJK_PATTERN = re.compile(r"[\u4e00-\u9fffA-Za-z0-9]+")
 
 PHRASE_PACK: List[Dict[str, str]] = [
-    {"id": "p01_ni_hao", "text": "你好"},
-    {"id": "p02_he_shui", "text": "我想喝水"},
-    {"id": "p03_chi_fan", "text": "我想吃饭"},
-    {"id": "p04_qing_bang_wo", "text": "请帮我"},
-    {"id": "p05_bu_shu_fu", "text": "我不舒服"},
-    {"id": "p06_shang_ce_suo", "text": "我想上厕所"},
-    {"id": "p07_man_yi_dian", "text": "请慢一点"},
-    {"id": "p08_xie_xie_ni", "text": "谢谢你"},
+    {"id": "p01_he_shui", "text": "我想喝水。"},
+    {"id": "p02_chi_fan", "text": "我想吃饭啊。"},
+    {"id": "p03_qing_bang_wo", "text": "请帮我啊。"},
+    {"id": "p04_bu_shu_fu", "text": "我不舒服。"},
 ]
 PHRASE_ID_TO_TEXT = {item["id"]: item["text"] for item in PHRASE_PACK}
 PHRASE_TEXT_TO_ID = {item["text"]: item["id"] for item in PHRASE_PACK}

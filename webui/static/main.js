@@ -4,6 +4,8 @@ const MIN_CLIENT_RECORDING_MS = 800;
 const TRAIN_TARGET = 15;
 const EVAL_TARGET = 15;
 const REQUIRED_RERECORD_COUNT = 5;
+const LOCKED_PHRASE_IDS = new Set(["p01_he_shui", "p02_chi_fan", "p03_qing_bang_wo", "p04_bu_shu_fu"]);
+const LOCKED_PHRASE_TEXTS = new Set(["我想喝水。", "我想吃饭啊。", "请帮我啊。", "我不舒服。", "我想喝水", "我想吃饭啊", "请帮我啊", "我不舒服"]);
 const state = {
     isRecording: false,
     buffers: [],
@@ -398,12 +400,16 @@ function renderUnknownSummary(summary) {
     unknownCorrectRejectEl.textContent = String(summary.correct_rejects || 0);
     unknownReportEl.textContent = JSON.stringify(summary, null, 2);
 }
+function lockToFourPhrases(rows) {
+    const filtered = rows.filter((row) => LOCKED_PHRASE_IDS.has(row.phrase_id) || LOCKED_PHRASE_TEXTS.has(row.text));
+    return filtered.slice(0, 4);
+}
 async function refreshPhrases() {
     const res = await fetch("/api/v3/phrases");
     const data = (await res.json());
     if (!res.ok || !data.ok)
         throw new Error(data.error || `HTTP ${res.status}`);
-    phrases = data.phrases;
+    phrases = lockToFourPhrases(data.phrases || []);
     updateSelects();
     renderPhraseGrid();
 }
