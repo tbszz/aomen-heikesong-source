@@ -43,8 +43,8 @@ $env:SILICONFLOW_API_KEY="your_key_here"
 4. 如果前端有改动，重新构建
 
 ```powershell
-npm install
-npm run build:frontend
+bun install
+bun run build:frontend
 ```
 
 ## 隐私与数据规范
@@ -64,8 +64,8 @@ Quick start:
 ./setup_env.ps1
 $env:SILICONFLOW_API_KEY="your_key_here"  # optional
 ./launch_web_ui.ps1
-npm install
-npm run build:frontend
+bun install
+bun run build:frontend
 ```
 
 ## License

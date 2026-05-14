@@ -12,11 +12,11 @@ Write-Host "[setup] Installing Python dependencies..."
 
 if (-not (Test-Path -LiteralPath ".\node_modules")) {
     Write-Host "[setup] Installing Node dependencies..."
-    npm install
+    bun install
 }
 
 Write-Host "[build] Building TypeScript frontend..."
-npm run build:frontend
+bun run build:frontend
 
 Write-Host "[run] Opening browser at http://127.0.0.1:8765"
 Start-Process "http://127.0.0.1:8765"

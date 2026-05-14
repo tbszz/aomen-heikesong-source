@@ -4,7 +4,12 @@
   "version": "0.1.0",
   "description": "VoiceBridge test frontend",
   "scripts": {
-    "build:frontend": "tsc -p tsconfig.json"
+    "setup:frontend": "bun install",
+    "build:frontend": "bunx tsc -p tsconfig.json",
+    "dev": "bun run start",
+    "start:frontend": "bun run build:frontend",
+    "start:backend": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"& .\\.venv\\Scripts\\python.exe -m uvicorn web_ui_app:app --host 127.0.0.1 --port 8765\"",
+    "start": "powershell -ExecutionPolicy Bypass -File ./launch_web_ui.ps1"
   },
   "devDependencies": {
     "typescript": "^5.9.2"
