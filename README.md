@@ -71,3 +71,31 @@ bun run build:frontend
 ## License
 
 MIT (see `LICENSE`).
+## Browser-only TF.js MVP (React + Bun)
+
+A new browser-only MVP app now exists in `webui-react/`.
+It implements transfer learning using `@tensorflow-models/speech-commands` with three pages:
+
+1. Record
+2. Train
+3. Use (real-time recognition + rejection + browser TTS)
+
+### Run the MVP
+
+```powershell
+bun run dev:web-mvp
+```
+
+Then open: `http://127.0.0.1:5173`
+
+### Build the MVP
+
+```powershell
+bun run build:web-mvp
+```
+
+### Notes
+
+- Model is persisted in IndexedDB via `transferRecognizer.save()` and reloaded via `transferRecognizer.load()`.
+- Phrase template and UX settings are stored in `localStorage`.
+- Existing Python backend flow remains unchanged and can run in parallel.
