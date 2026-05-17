@@ -12,6 +12,7 @@ import shutil
 import threading
 import time
 import wave
+import zipfile
 from contextlib import contextmanager
 from datetime import datetime, timezone
 from pathlib import Path
@@ -23,7 +24,7 @@ import librosa
 import numpy as np
 import requests
 from fastapi import Body, FastAPI, File, Form, HTTPException, Query, UploadFile
-from fastapi.responses import FileResponse, JSONResponse
+from fastapi.responses import FileResponse, JSONResponse, Response
 from fastapi.staticfiles import StaticFiles
 
 try:
@@ -85,7 +86,7 @@ TTS_VOICE = "zh-CN-YunxiNeural"
 TARGET_SAMPLE_RATE = 16000
 MIN_SAMPLE_DURATION_SEC = 0.18
 MIN_SAMPLE_DURATION_SEC_FOR_SAMPLE = 0.8
-TRAIN_TARGET_PER_PHRASE = 15
+TRAIN_TARGET_PER_PHRASE = 50
 EVAL_TARGET_PER_PHRASE = 15
 TRIM_TOP_DB = 35
 EMBED_N_MFCC = 13
@@ -174,6 +175,8 @@ VB_MIN_ACTIVE_PER_PHRASE = max(1, env_int("VB_MIN_ACTIVE_PER_PHRASE", 8))
 VB_PURIFY_DISABLE_THRESHOLD = min(1.0, max(0.0, env_float("VB_PURIFY_DISABLE_THRESHOLD", 0.75)))
 VB_PURIFY_RECENT_ERROR_WINDOW = max(20, env_int("VB_PURIFY_RECENT_ERROR_WINDOW", 240))
 VB_PURIFY_PER_PHRASE_MAX_DISABLE = max(1, env_int("VB_PURIFY_PER_PHRASE_MAX_DISABLE", 6))
+VB_CLOUD_CORPUS_UPLOAD_URL = (os.environ.get("VB_CLOUD_CORPUS_UPLOAD_URL") or "").strip()
+VB_CLOUD_CORPUS_UPLOAD_TOKEN = (os.environ.get("VB_CLOUD_CORPUS_UPLOAD_TOKEN") or "").strip()
 
 
 def detect_torch_backend() -> str:
@@ -233,6 +236,7 @@ def runtime_config_snapshot() -> Dict[str, Any]:
         "no_reject_mode": bool(NO_REJECT_MODE),
         "selection_mode": "force_top1_no_reject" if NO_REJECT_MODE else "reject_then_correct",
         "active_phrase_count": len(PHRASE_PACK),
+        "cloud_corpus_upload_configured": bool(VB_CLOUD_CORPUS_UPLOAD_URL),
     }
 
 
@@ -1368,6 +1372,90 @@ def v3_unknown_records(manifest: Optional[Dict[str, Any]] = None) -> List[Dict[s
     if not isinstance(rows, list):
         return []
     return [row for row in rows if isinstance(row, dict) and row.get("split") == "unknown"]
+
+
+def v3_shared_corpus_status(manifest: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
+    manifest = manifest or load_v3_manifest()
+    train_rows = v3_train_records(manifest)
+    by_phrase: Dict[str, Dict[str, Any]] = {}
+    phrase_target = TRAIN_TARGET_PER_PHRASE
+    all_ready = True
+
+    for phrase in PHRASE_PACK:
+        pid = phrase["id"]
+        ptext = phrase["text"]
+        rows = [row for row in train_rows if row.get("phrase_id") == pid]
+        count = len(rows)
+        ready = count >= phrase_target
+        if not ready:
+            all_ready = False
+        by_phrase[pid] = {
+            "phrase_id": pid,
+            "text": ptext,
+            "train_count": count,
+            "target": phrase_target,
+            "ready": ready,
+        }
+
+    return {
+        "phrase_target": phrase_target,
+        "phrase_count": len(PHRASE_PACK),
+        "all_ready_for_upload": all_ready,
+        "phrases": list(by_phrase.values()),
+        "total_train_samples": len(train_rows),
+    }
+
+
+def v3_build_shared_corpus_export_zip() -> Tuple[str, bytes, Dict[str, Any]]:
+    manifest = load_v3_manifest()
+    status = v3_shared_corpus_status(manifest)
+    train_rows = v3_train_records(manifest)
+    allowed_ids = {phrase["id"] for phrase in PHRASE_PACK}
+    filtered_rows = [row for row in train_rows if isinstance(row.get("phrase_id"), str) and row.get("phrase_id") in allowed_ids]
+
+    snapshot = {
+        "generated_at": now_iso(),
+        "dataset": "data_v3",
+        "phrase_pack": PHRASE_PACK,
+        "status": status,
+        "samples": [],
+    }
+
+    buf = io.BytesIO()
+    with zipfile.ZipFile(buf, mode="w", compression=zipfile.ZIP_DEFLATED) as zf:
+        for row in filtered_rows:
+            rel = row.get("file_rel")
+            if not isinstance(rel, str):
+                continue
+            try:
+                src = v3_path_for_rel(rel)
+            except Exception:
+                continue
+            if not src.exists() or not src.is_file():
+                continue
+
+            pid = str(row.get("phrase_id"))
+            sample_id = str(row.get("sample_id") or src.stem)
+            dst_rel = f"audio/{pid}/{src.name}"
+            zf.writestr(dst_rel, src.read_bytes())
+            snapshot["samples"].append(
+                {
+                    "sample_id": sample_id,
+                    "phrase_id": pid,
+                    "phrase_text": PHRASE_ID_TO_TEXT.get(pid, pid),
+                    "audio_path": dst_rel,
+                    "duration_sec": row.get("duration_sec"),
+                    "speaker_id": row.get("speaker_id"),
+                    "created_at": row.get("created_at"),
+                    "sha256": row.get("sha256"),
+                }
+            )
+
+        zf.writestr("manifest.json", json.dumps(snapshot, ensure_ascii=False, indent=2).encode("utf-8"))
+
+    payload = buf.getvalue()
+    filename = f"voicebridge_shared_corpus_{datetime.now().strftime('%Y%m%d_%H%M%S')}.zip"
+    return filename, payload, status
 
 
 def v2_phrase_counts(manifest: Optional[Dict[str, Any]] = None) -> Dict[str, Dict[str, int]]:
@@ -5793,6 +5881,92 @@ def api_v3_model_card() -> JSONResponse:
 @app.get("/api/v3/runtime/config")
 def api_v3_runtime_config() -> JSONResponse:
     return JSONResponse({"ok": True, "config": runtime_config_snapshot()})
+
+
+@app.get("/api/v3/shared-corpus/status")
+def api_v3_shared_corpus_status() -> JSONResponse:
+    ensure_v3_dataset(seed_from_v2=False)
+    status = v3_shared_corpus_status(load_v3_manifest())
+    return JSONResponse({"ok": True, "status": status})
+
+
+@app.get("/api/v3/shared-corpus/export")
+def api_v3_shared_corpus_export() -> Response:
+    ensure_v3_dataset(seed_from_v2=False)
+    filename, payload, status = v3_build_shared_corpus_export_zip()
+    headers = {
+        "Content-Disposition": f'attachment; filename="{filename}"',
+        "X-Shared-Corpus-Ready": "1" if status.get("all_ready_for_upload") else "0",
+    }
+    return Response(content=payload, media_type="application/zip", headers=headers)
+
+
+@app.post("/api/v3/shared-corpus/upload")
+def api_v3_shared_corpus_upload(payload: Dict[str, Any] = Body(default_factory=dict)) -> JSONResponse:
+    ensure_v3_dataset(seed_from_v2=False)
+    upload_url = str(payload.get("upload_url") or VB_CLOUD_CORPUS_UPLOAD_URL).strip()
+    upload_token = str(payload.get("upload_token") or VB_CLOUD_CORPUS_UPLOAD_TOKEN).strip()
+    extra_fields = payload.get("extra_fields", {})
+    if not isinstance(extra_fields, dict):
+        extra_fields = {}
+    timeout_sec = float(payload.get("timeout_sec", 30))
+
+    if not upload_url:
+        return JSONResponse(
+            status_code=400,
+            content={"ok": False, "error": "missing upload_url (or set VB_CLOUD_CORPUS_UPLOAD_URL)"},
+        )
+
+    filename, zip_payload, status = v3_build_shared_corpus_export_zip()
+    headers: Dict[str, str] = {}
+    if upload_token:
+        headers["Authorization"] = f"Bearer {upload_token}"
+
+    files = {
+        "file": (filename, zip_payload, "application/zip"),
+    }
+
+    form_data: Dict[str, str] = {
+        "dataset_name": "voicebridge_shared_corpus",
+        "generated_at": now_iso(),
+        "phrase_count": str(len(PHRASE_PACK)),
+        "target_per_phrase": str(TRAIN_TARGET_PER_PHRASE),
+    }
+    for key, value in extra_fields.items():
+        form_data[str(key)] = str(value)
+
+    try:
+        resp = requests.post(
+            upload_url,
+            data=form_data,
+            files=files,
+            headers=headers,
+            timeout=max(5.0, timeout_sec),
+        )
+        body = resp.text
+        if len(body) > 2000:
+            body = body[:2000] + "...(truncated)"
+        return JSONResponse(
+            {
+                "ok": 200 <= resp.status_code < 300,
+                "status_code": resp.status_code,
+                "upload_url": upload_url,
+                "shared_status": status,
+                "remote_response": body,
+            },
+            status_code=200 if 200 <= resp.status_code < 300 else 502,
+        )
+    except Exception as exc:
+        return JSONResponse(
+            status_code=502,
+            content={
+                "ok": False,
+                "error": "upload_failed",
+                "detail": str(exc),
+                "upload_url": upload_url,
+                "shared_status": status,
+            },
+        )
 
 
 @app.get("/api/v3/data/audit")
