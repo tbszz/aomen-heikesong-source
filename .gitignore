@@ -43,6 +43,7 @@ Thumbs.db
 .idea/
 
 # Corpus - allow wav files for training data
+!corpus/
 corpus/*.wav
 corpus/**/*.wav
 !corpus/processed/

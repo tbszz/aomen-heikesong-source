@@ -43,18 +43,27 @@ const TRAIN_TRANSFER_NAME = "voicebridge-mvp-train";
 const EVAL_TRANSFER_NAME = "voicebridge-mvp-eval";
 
 const DEFAULT_PHRASES = [
-  "我想喝水。",
-  "我想吃饭啊。",
-  "请帮我啊。",
-  "我不舒服。"
+  "但是工作原因会经常与人打交道",
+  "你叫什么名字",
+  "你是哪里人",
+  "你猜猜我多大",
+  "初次见面",
+  "多多关照",
+  "很高兴认识你",
+  "我叫李朋程",
+  "我平时在北京上班",
+  "我是内蒙古人",
+  "我来自内蒙古",
+  "朋是朋友的朋",
+  "程是过程的程"
 ];
 
 const SPEAKING_MODES = [
-  { id: "normal", label: "Normal tone", description: "Standard speaking speed and volume." },
-  { id: "soft", label: "Soft / low volume", description: "Reduced loudness, close to whisper-like delivery." },
-  { id: "fast", label: "Slightly faster", description: "Natural phrase but spoken a bit faster." },
-  { id: "slow", label: "Slightly slower", description: "Clear and slower pronunciation." },
-  { id: "fatigued", label: "Fatigued / unstable", description: "Weaker or unstable voice condition." }
+  { id: "normal", label: "正常语调", description: "标准语速和音量" },
+  { id: "soft", label: "轻声/低音量", description: "降低音量，接近耳语" },
+  { id: "fast", label: "稍快", description: "自然语速但稍快" },
+  { id: "slow", label: "稍慢", description: "清晰且稍慢的发音" },
+  { id: "fatigued", label: "疲劳/不稳定", description: "虚弱或不稳定的声音状态" }
 ] as const;
 
 type SpeakingModeId = (typeof SPEAKING_MODES)[number]["id"];
@@ -610,21 +619,21 @@ export function App() {
       </header>
 
       <section className="toolbar">
-        <button className={stage === "record" ? "active" : ""} onClick={() => setStage("record")}>1. Record</button>
-        <button className={stage === "train" ? "active" : ""} onClick={() => setStage("train")}>2. Train</button>
-        <button className={stage === "use" ? "active" : ""} onClick={() => setStage("use")}>3. Use</button>
+        <button className={stage === "record" ? "active" : ""} onClick={() => setStage("record")}>1. 录音</button>
+        <button className={stage === "train" ? "active" : ""} onClick={() => setStage("train")}>2. 训练</button>
+        <button className={stage === "use" ? "active" : ""} onClick={() => setStage("use")}>3. 使用</button>
       </section>
 
       <section className="status-card">
         <div><strong>Status:</strong> {loading ? "Loading..." : status}</div>
-        <div><strong>Train samples:</strong> {trainSampleTotal}</div>
-        <div><strong>Eval samples:</strong> {evalSampleTotal}</div>
+        <div><strong>训练样本:</strong> {trainSampleTotal}</div>
+        <div><strong>评估样本:</strong> {evalSampleTotal}</div>
         {error ? <div className="error"><strong>Error:</strong> {error}</div> : null}
       </section>
 
       {stage === "record" && (
         <section className="panel">
-          <h2>Recording Page</h2>
+          <h2>录音页面</h2>
           <p>
             Pilot recommendation: fixed 4 short high-frequency sentences. Train target is {RECOMMENDED_TOTAL_PER_PHRASE}
             per phrase ({MODE_TARGET_PER_STATE} x {SPEAKING_MODES.length} states).
@@ -663,7 +672,7 @@ export function App() {
           </div>
 
           <div className="row">
-            <label>Phrase</label>
+            <label>短语</label>
             <select value={selectedPhrase} onChange={(e) => setSelectedPhrase(e.target.value)}>
               {phrases.map((phrase) => (
                 <option key={phrase} value={phrase}>{phrase}</option>
@@ -726,7 +735,7 @@ export function App() {
 
       {stage === "train" && (
         <section className="panel">
-          <h2>Training Page</h2>
+          <h2>训练页面</h2>
           <p>
             Train only on the train split. Holdout eval split is never mixed into training.
           </p>
@@ -789,7 +798,7 @@ export function App() {
 
       {stage === "use" && (
         <section className="panel">
-          <h2>Usage + Evaluation Page</h2>
+          <h2>使用与评估页面</h2>
           <div className="row">
             <label>Recognition mode:</label>
             <label>
@@ -815,7 +824,7 @@ export function App() {
 
           {!useBackendSvm && (
           <div className="row">
-            <label>Probability threshold</label>
+            <label>概率阈值</label>
             <input
               type="range"
               min={0.4}
@@ -835,7 +844,7 @@ export function App() {
                 checked={ttsEnabled}
                 onChange={(e) => setTtsEnabled(e.target.checked)}
               />
-              Enable browser TTS output
+              启用浏览器TTS语音输出
             </label>
 
             {useBackendSvm ? (
