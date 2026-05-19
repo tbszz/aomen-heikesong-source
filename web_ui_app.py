@@ -41,6 +41,14 @@ except Exception:  # noqa: BLE001
     AutoModel = None
     HubertModel = None
 
+try:
+    import pickle
+    from sklearn.preprocessing import StandardScaler, LabelEncoder
+except Exception:
+    pickle = None
+    StandardScaler = None
+    LabelEncoder = None
+
 
 ROOT_DIR = Path(__file__).resolve().parent
 WEB_DIR = ROOT_DIR / "webui"
@@ -6387,3 +6395,148 @@ def api_v3_audio(file_rel: str = Query(...)) -> FileResponse:
     if not path.exists():
         raise HTTPException(status_code=404, detail="not_found")
     return FileResponse(path, media_type="audio/wav")
+
+
+# ========== SVM 模型相关 ==========
+SVM_MODEL_PATH = ROOT_DIR / "corpus" / "svm_model.pkl"
+_svm_model_data: Optional[Dict[str, Any]] = None
+
+
+def load_svm_model() -> Optional[Dict[str, Any]]:
+    """加载SVM模型"""
+    global _svm_model_data
+    if _svm_model_data is not None:
+        return _svm_model_data
+
+    if pickle is None or SVM_MODEL_PATH.exists() is False:
+        return None
+
+    try:
+        with open(SVM_MODEL_PATH, "rb") as f:
+            _svm_model_data = pickle.load(f)
+        return _svm_model_data
+    except Exception as e:
+        print(f"[SVM] 模型加载失败: {e}")
+        return None
+
+
+def svm_extract_features(audio_path: Path, sr: int = 16000) -> Optional[np.ndarray]:
+    """提取37维特征向量（与训练时一致）"""
+    try:
+        y, sr = librosa.load(audio_path, sr=sr, mono=True)
+    except Exception as e:
+        print(f"[SVM] 音频加载失败: {e}")
+        return None
+
+    features = []
+
+    # 1. MFCC (13维 -> 26维统计: 均值+标准差)
+    mfcc = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=13)
+    features.extend(np.mean(mfcc, axis=1))
+    features.extend(np.std(mfcc, axis=1))
+
+    # 2. 过零率 (2维: 均值+标准差)
+    zcr = librosa.feature.zero_crossing_rate(y)
+    features.append(np.mean(zcr))
+    features.append(np.std(zcr))
+
+    # 3. 短时能量 (2维: 总能量 + 平均能量)
+    energy = np.sum(y**2)
+    features.append(energy)
+    features.append(energy / len(y))
+
+    # 4. 频谱质心 (2维: 均值+标准差)
+    cent = librosa.feature.spectral_centroid(y=y, sr=sr)
+    features.append(np.mean(cent))
+    features.append(np.std(cent))
+
+    # 5. 频谱带宽 (2维: 均值+标准差)
+    band = librosa.feature.spectral_bandwidth(y=y, sr=sr)
+    features.append(np.mean(band))
+    features.append(np.std(band))
+
+    # 6. 频谱滚降点 (2维: 均值+标准差)
+    rolloff = librosa.feature.spectral_rolloff(y=y, sr=sr, roll_percent=0.85)
+    features.append(np.mean(rolloff))
+    features.append(np.std(rolloff))
+
+    # 7. 频谱平坦度 (1维: 均值)
+    flatness = librosa.feature.spectral_flatness(y=y)
+    features.append(np.mean(flatness))
+
+    return np.array(features)
+
+
+@app.post("/api/svm/predict")
+async def api_svm_predict(file: UploadFile = File(...)) -> JSONResponse:
+    """SVM实时预测接口"""
+    # 检查模型是否加载
+    model_data = load_svm_model()
+    if model_data is None:
+        return JSONResponse(
+            status_code=503,
+            content={"error": "SVM模型未加载", "detail": "请确保 corpus/svm_model.pkl 存在"}
+        )
+
+    try:
+        # 1. 保存上传的音频
+        audio_data = await file.read()
+        temp_path = ROOT_DIR / "temp_svm_input.wav"
+
+        # 转换为WAV格式
+        try:
+            import soundfile as sf
+            audio_np = np.frombuffer(audio_data, dtype=np.float32)
+            if len(audio_np.shape) > 1:
+                audio_np = audio_np.mean(axis=1)
+            sf.write(str(temp_path), audio_np, 16000)
+        except Exception:
+            # 如果失败，直接保存原始数据
+            temp_path.write_bytes(audio_data)
+
+        # 2. 提取特征
+        features = svm_extract_features(temp_path)
+        if features is None:
+            return JSONResponse(status_code=400, content={"error": "特征提取失败"})
+
+        # 3. 预测
+        svm = model_data["svm"]
+        scaler = model_data["scaler"]
+        le = model_data["label_encoder"]
+
+        features_scaled = scaler.transform([features])
+        pred_idx = svm.predict(features_scaled)[0]
+        pred_phrase = le.inverse_transform([pred_idx])[0]
+
+        # 清理临时文件
+        try:
+            temp_path.unlink()
+        except Exception:
+            pass
+
+        return JSONResponse({
+            "phrase": pred_phrase,
+            "phrase_id": pred_idx,
+            "classes": model_data.get("classes", []),
+        })
+
+    except Exception as e:
+        return JSONResponse(status_code=500, content={"error": str(e)})
+
+
+@app.get("/api/svm/status")
+def api_svm_status() -> JSONResponse:
+    """SVM模型状态"""
+    model_data = load_svm_model()
+    if model_data is None:
+        return JSONResponse({
+            "loaded": False,
+            "message": "SVM模型未加载或文件不存在"
+        })
+
+    return JSONResponse({
+        "loaded": True,
+        "classes": model_data.get("classes", []),
+        "feature_dim": model_data.get("feature_dim"),
+        "created_at": model_data.get("created_at"),
+    })

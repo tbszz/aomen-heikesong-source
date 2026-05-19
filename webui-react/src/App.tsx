@@ -111,6 +111,8 @@ export function App() {
   const [epochs, setEpochs] = useState(30);
   const [fineTuningEpochs, setFineTuningEpochs] = useState(12);
   const [noiseMixRatio, setNoiseMixRatio] = useState(0.25);
+  const [useBackendSvm, setUseBackendSvm] = useState(false);
+  const [svmStatus, setSvmStatus] = useState<{loaded: boolean; classes: string[]} | null>(null);
 
   const trainTransferRef = useRef<speechCommands.TransferSpeechCommandRecognizer | null>(null);
   const evalTransferRef = useRef<speechCommands.TransferSpeechCommandRecognizer | null>(null);
@@ -192,6 +194,17 @@ export function App() {
           }
         } else {
           setStatus("Base model ready. Record train/eval samples for transfer learning.");
+        }
+
+        // 检查后端SVM状态
+        try {
+          const res = await fetch("http://127.0.0.1:8766/api/svm/status");
+          if (res.ok) {
+            const data = await res.json();
+            setSvmStatus(data);
+          }
+        } catch (e) {
+          console.warn("SVM状态获取失败:", e);
         }
 
         if (mounted) {
@@ -491,6 +504,80 @@ export function App() {
     setStatus("Recognition stopped.");
   }
 
+  async function svmRecordAndPredict() {
+    if (listening || !svmStatus?.loaded) return;
+
+    try {
+      setListening(true);
+      setStatus("Recording audio...");
+      setError(null);
+
+      // 使用浏览器API录制音频
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      const mediaRecorder = new MediaRecorder(stream);
+      const audioChunks: Blob[] = [];
+
+      mediaRecorder.ondataavailable = (event) => {
+        if (event.data.size > 0) {
+          audioChunks.push(event.data);
+        }
+      };
+
+      mediaRecorder.onstop = async () => {
+        stream.getTracks().forEach(track => track.stop());
+
+        const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+        const arrayBuffer = await audioBlob.arrayBuffer();
+        const audioData = new Float32Array(arrayBuffer);
+
+        setStatus("Predicting with SVM...");
+
+        const formData = new FormData();
+        const wavBlob = new Blob([audioData.buffer], { type: 'audio/wav' });
+        formData.append('file', wavBlob, 'recording.wav');
+
+        const res = await fetch('http://127.0.0.1:8766/api/svm/predict', {
+          method: 'POST',
+          body: formData,
+        });
+
+        if (!res.ok) {
+          const err = await res.json();
+          throw new Error(err.error || 'Prediction failed');
+        }
+
+        const result = await res.json();
+        const phrase = result.phrase;
+
+        setEvents((prev) => [{
+          label: phrase,
+          score: 1.0,
+          at: Date.now(),
+          rejected: false
+        }, ...prev].slice(0, 20));
+
+        setStatus(`Recognized: ${phrase}`);
+
+        if (ttsEnabled) {
+          speak(phrase);
+        }
+
+        setListening(false);
+      };
+
+      mediaRecorder.start();
+
+      // 录制2秒
+      setTimeout(() => {
+        mediaRecorder.stop();
+      }, 2000);
+
+    } catch (err) {
+      setError(stringifyError(err));
+      setListening(false);
+    }
+  }
+
   async function resetSavedModel() {
     if (listening) {
       await stopListening();
@@ -704,6 +791,30 @@ export function App() {
         <section className="panel">
           <h2>Usage + Evaluation Page</h2>
           <div className="row">
+            <label>Recognition mode:</label>
+            <label>
+              <input
+                type="radio"
+                name="recogMode"
+                checked={!useBackendSvm}
+                onChange={() => setUseBackendSvm(false)}
+              />
+              Browser TF.js
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="recogMode"
+                checked={useBackendSvm}
+                onChange={() => setUseBackendSvm(true)}
+                disabled={!svmStatus?.loaded}
+              />
+              Backend SVM {svmStatus?.loaded ? "(OK)" : "(Loading...)"}
+            </label>
+          </div>
+
+          {!useBackendSvm && (
+          <div className="row">
             <label>Probability threshold</label>
             <input
               type="range"
@@ -715,6 +826,7 @@ export function App() {
             />
             <strong>{threshold.toFixed(2)}</strong>
           </div>
+          )}
 
           <div className="row">
             <label>
@@ -726,11 +838,28 @@ export function App() {
               Enable browser TTS output
             </label>
 
+            {useBackendSvm ? (
+            <div className="row">
+              <button
+                className={listening ? "danger" : "primary"}
+                onClick={() => void svmRecordAndPredict()}
+                disabled={listening}
+              >
+                {listening ? "Recording..." : "Record & Predict (SVM)"}
+              </button>
+              <span style={{fontSize: '12px', color: '#666'}}>
+                Available phrases: {svmStatus?.classes?.slice(0,3).join(', ')}...
+              </span>
+            </div>
+          ) : (
+            <>
             <button className={listening ? "danger" : "primary"} onClick={() => void toggleListening()}>
               {listening ? "Stop recognition" : "Start recognition"}
             </button>
             <button onClick={() => void runHoldoutEvaluation()}>Run holdout eval</button>
             <button onClick={() => void resetSavedModel()}>Delete saved model</button>
+            </>
+          )}
           </div>
 
           {evalSummary ? (
