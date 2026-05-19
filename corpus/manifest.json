@@ -1,0 +1,4569 @@
+{
+  "version": 1,
+  "created_at": "2026-05-20T01:19:17.398237",
+  "total_processed": 651,
+  "phrase_count": 13,
+  "process_params": {
+    "sample_rate": 16000,
+    "normalize_db": -20
+  },
+  "records": [
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道.wav",
+      "processed": "但是工作原因会经常与人打交道.wav",
+      "duration_sec": 7.23
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道10.wav",
+      "processed": "但是工作原因会经常与人打交道10.wav",
+      "duration_sec": 8.86
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道11.wav",
+      "processed": "但是工作原因会经常与人打交道11.wav",
+      "duration_sec": 8.45
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道12.wav",
+      "processed": "但是工作原因会经常与人打交道12.wav",
+      "duration_sec": 9.01
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道13.wav",
+      "processed": "但是工作原因会经常与人打交道13.wav",
+      "duration_sec": 9.15
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道14.wav",
+      "processed": "但是工作原因会经常与人打交道14.wav",
+      "duration_sec": 9.41
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道15.wav",
+      "processed": "但是工作原因会经常与人打交道15.wav",
+      "duration_sec": 8.53
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道16.wav",
+      "processed": "但是工作原因会经常与人打交道16.wav",
+      "duration_sec": 8.78
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道17.wav",
+      "processed": "但是工作原因会经常与人打交道17.wav",
+      "duration_sec": 8.96
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道18.wav",
+      "processed": "但是工作原因会经常与人打交道18.wav",
+      "duration_sec": 7.82
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道19.wav",
+      "processed": "但是工作原因会经常与人打交道19.wav",
+      "duration_sec": 7.72
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道2.wav",
+      "processed": "但是工作原因会经常与人打交道2.wav",
+      "duration_sec": 7.82
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道20.wav",
+      "processed": "但是工作原因会经常与人打交道20.wav",
+      "duration_sec": 9.47
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道21.wav",
+      "processed": "但是工作原因会经常与人打交道21.wav",
+      "duration_sec": 7.87
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道22.wav",
+      "processed": "但是工作原因会经常与人打交道22.wav",
+      "duration_sec": 9.0
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道23.wav",
+      "processed": "但是工作原因会经常与人打交道23.wav",
+      "duration_sec": 7.62
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道24.wav",
+      "processed": "但是工作原因会经常与人打交道24.wav",
+      "duration_sec": 8.31
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道25.wav",
+      "processed": "但是工作原因会经常与人打交道25.wav",
+      "duration_sec": 7.41
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道26.wav",
+      "processed": "但是工作原因会经常与人打交道26.wav",
+      "duration_sec": 7.48
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道27.wav",
+      "processed": "但是工作原因会经常与人打交道27.wav",
+      "duration_sec": 8.79
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道28.wav",
+      "processed": "但是工作原因会经常与人打交道28.wav",
+      "duration_sec": 10.6
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道29.wav",
+      "processed": "但是工作原因会经常与人打交道29.wav",
+      "duration_sec": 7.93
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道3.wav",
+      "processed": "但是工作原因会经常与人打交道3.wav",
+      "duration_sec": 7.74
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道30.wav",
+      "processed": "但是工作原因会经常与人打交道30.wav",
+      "duration_sec": 8.12
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道31.wav",
+      "processed": "但是工作原因会经常与人打交道31.wav",
+      "duration_sec": 6.89
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道32.wav",
+      "processed": "但是工作原因会经常与人打交道32.wav",
+      "duration_sec": 6.77
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道33.wav",
+      "processed": "但是工作原因会经常与人打交道33.wav",
+      "duration_sec": 7.9
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道34.wav",
+      "processed": "但是工作原因会经常与人打交道34.wav",
+      "duration_sec": 7.5
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道35.wav",
+      "processed": "但是工作原因会经常与人打交道35.wav",
+      "duration_sec": 6.69
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道36.wav",
+      "processed": "但是工作原因会经常与人打交道36.wav",
+      "duration_sec": 7.74
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道37.wav",
+      "processed": "但是工作原因会经常与人打交道37.wav",
+      "duration_sec": 7.9
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道38.wav",
+      "processed": "但是工作原因会经常与人打交道38.wav",
+      "duration_sec": 8.03
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道39.wav",
+      "processed": "但是工作原因会经常与人打交道39.wav",
+      "duration_sec": 7.79
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道4.wav",
+      "processed": "但是工作原因会经常与人打交道4.wav",
+      "duration_sec": 8.0
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道40.wav",
+      "processed": "但是工作原因会经常与人打交道40.wav",
+      "duration_sec": 7.52
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道41.wav",
+      "processed": "但是工作原因会经常与人打交道41.wav",
+      "duration_sec": 7.34
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道42.wav",
+      "processed": "但是工作原因会经常与人打交道42.wav",
+      "duration_sec": 7.35
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道43.wav",
+      "processed": "但是工作原因会经常与人打交道43.wav",
+      "duration_sec": 7.34
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道44.wav",
+      "processed": "但是工作原因会经常与人打交道44.wav",
+      "duration_sec": 7.41
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道45.wav",
+      "processed": "但是工作原因会经常与人打交道45.wav",
+      "duration_sec": 9.65
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道46.wav",
+      "processed": "但是工作原因会经常与人打交道46.wav",
+      "duration_sec": 8.31
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道47.wav",
+      "processed": "但是工作原因会经常与人打交道47.wav",
+      "duration_sec": 8.73
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道48.wav",
+      "processed": "但是工作原因会经常与人打交道48.wav",
+      "duration_sec": 7.32
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道49.wav",
+      "processed": "但是工作原因会经常与人打交道49.wav",
+      "duration_sec": 6.98
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道5.wav",
+      "processed": "但是工作原因会经常与人打交道5.wav",
+      "duration_sec": 8.41
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道50.wav",
+      "processed": "但是工作原因会经常与人打交道50.wav",
+      "duration_sec": 6.37
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道6.wav",
+      "processed": "但是工作原因会经常与人打交道6.wav",
+      "duration_sec": 10.03
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道7.wav",
+      "processed": "但是工作原因会经常与人打交道7.wav",
+      "duration_sec": 8.03
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道8.wav",
+      "processed": "但是工作原因会经常与人打交道8.wav",
+      "duration_sec": 9.0
+    },
+    {
+      "phrase_id": "p00_但是工作",
+      "phrase_text": "但是工作原因会经常与人打交道",
+      "original": "但是工作原因会经常与人打交道9.wav",
+      "processed": "但是工作原因会经常与人打交道9.wav",
+      "duration_sec": 10.02
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字.wav",
+      "processed": "你叫什么名字.wav",
+      "duration_sec": 4.13
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字10.wav",
+      "processed": "你叫什么名字10.wav",
+      "duration_sec": 4.37
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字11.wav",
+      "processed": "你叫什么名字11.wav",
+      "duration_sec": 4.64
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字12.wav",
+      "processed": "你叫什么名字12.wav",
+      "duration_sec": 5.02
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字13.wav",
+      "processed": "你叫什么名字13.wav",
+      "duration_sec": 4.18
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字14.wav",
+      "processed": "你叫什么名字14.wav",
+      "duration_sec": 5.2
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字15.wav",
+      "processed": "你叫什么名字15.wav",
+      "duration_sec": 3.91
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字16.wav",
+      "processed": "你叫什么名字16.wav",
+      "duration_sec": 3.7
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字17.wav",
+      "processed": "你叫什么名字17.wav",
+      "duration_sec": 4.35
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字18.wav",
+      "processed": "你叫什么名字18.wav",
+      "duration_sec": 4.23
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字19.wav",
+      "processed": "你叫什么名字19.wav",
+      "duration_sec": 4.0
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字2.wav",
+      "processed": "你叫什么名字2.wav",
+      "duration_sec": 4.46
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字20.wav",
+      "processed": "你叫什么名字20.wav",
+      "duration_sec": 3.95
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字21.wav",
+      "processed": "你叫什么名字21.wav",
+      "duration_sec": 4.93
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字22.wav",
+      "processed": "你叫什么名字22.wav",
+      "duration_sec": 4.11
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字23.wav",
+      "processed": "你叫什么名字23.wav",
+      "duration_sec": 3.79
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字24.wav",
+      "processed": "你叫什么名字24.wav",
+      "duration_sec": 3.9
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字25.wav",
+      "processed": "你叫什么名字25.wav",
+      "duration_sec": 3.46
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字26.wav",
+      "processed": "你叫什么名字26.wav",
+      "duration_sec": 3.73
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字27.wav",
+      "processed": "你叫什么名字27.wav",
+      "duration_sec": 4.15
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字28.wav",
+      "processed": "你叫什么名字28.wav",
+      "duration_sec": 4.48
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字29.wav",
+      "processed": "你叫什么名字29.wav",
+      "duration_sec": 4.87
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字3.wav",
+      "processed": "你叫什么名字3.wav",
+      "duration_sec": 4.61
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字30.wav",
+      "processed": "你叫什么名字30.wav",
+      "duration_sec": 3.62
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字31.wav",
+      "processed": "你叫什么名字31.wav",
+      "duration_sec": 4.03
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字32.wav",
+      "processed": "你叫什么名字32.wav",
+      "duration_sec": 3.92
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字33.wav",
+      "processed": "你叫什么名字33.wav",
+      "duration_sec": 4.37
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字34.wav",
+      "processed": "你叫什么名字34.wav",
+      "duration_sec": 3.55
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字35.wav",
+      "processed": "你叫什么名字35.wav",
+      "duration_sec": 4.04
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字36.wav",
+      "processed": "你叫什么名字36.wav",
+      "duration_sec": 4.09
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字37.wav",
+      "processed": "你叫什么名字37.wav",
+      "duration_sec": 3.92
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字38.wav",
+      "processed": "你叫什么名字38.wav",
+      "duration_sec": 3.76
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字39.wav",
+      "processed": "你叫什么名字39.wav",
+      "duration_sec": 3.55
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字4.wav",
+      "processed": "你叫什么名字4.wav",
+      "duration_sec": 3.77
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字40.wav",
+      "processed": "你叫什么名字40.wav",
+      "duration_sec": 3.46
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字41.wav",
+      "processed": "你叫什么名字41.wav",
+      "duration_sec": 3.63
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字42.wav",
+      "processed": "你叫什么名字42.wav",
+      "duration_sec": 4.15
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字43.wav",
+      "processed": "你叫什么名字43.wav",
+      "duration_sec": 3.65
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字44.wav",
+      "processed": "你叫什么名字44.wav",
+      "duration_sec": 4.03
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字45.wav",
+      "processed": "你叫什么名字45.wav",
+      "duration_sec": 3.79
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字46.wav",
+      "processed": "你叫什么名字46.wav",
+      "duration_sec": 3.5
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字47.wav",
+      "processed": "你叫什么名字47.wav",
+      "duration_sec": 4.22
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字48.wav",
+      "processed": "你叫什么名字48.wav",
+      "duration_sec": 3.63
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字49.wav",
+      "processed": "你叫什么名字49.wav",
+      "duration_sec": 3.29
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字5.wav",
+      "processed": "你叫什么名字5.wav",
+      "duration_sec": 4.66
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字50.wav",
+      "processed": "你叫什么名字50.wav",
+      "duration_sec": 3.51
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字6.wav",
+      "processed": "你叫什么名字6.wav",
+      "duration_sec": 3.92
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字7.wav",
+      "processed": "你叫什么名字7.wav",
+      "duration_sec": 5.0
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字8.wav",
+      "processed": "你叫什么名字8.wav",
+      "duration_sec": 4.41
+    },
+    {
+      "phrase_id": "p01_你叫什么",
+      "phrase_text": "你叫什么名字",
+      "original": "你叫什么名字9.wav",
+      "processed": "你叫什么名字9.wav",
+      "duration_sec": 3.54
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人.wav",
+      "processed": "你是哪里人.wav",
+      "duration_sec": 3.32
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人10.wav",
+      "processed": "你是哪里人10.wav",
+      "duration_sec": 2.04
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人11.wav",
+      "processed": "你是哪里人11.wav",
+      "duration_sec": 2.98
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人12.wav",
+      "processed": "你是哪里人12.wav",
+      "duration_sec": 3.37
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人13.wav",
+      "processed": "你是哪里人13.wav",
+      "duration_sec": 3.42
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人14.wav",
+      "processed": "你是哪里人14.wav",
+      "duration_sec": 3.31
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人15.wav",
+      "processed": "你是哪里人15.wav",
+      "duration_sec": 3.26
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人16.wav",
+      "processed": "你是哪里人16.wav",
+      "duration_sec": 2.9
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人17.wav",
+      "processed": "你是哪里人17.wav",
+      "duration_sec": 4.38
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人18.wav",
+      "processed": "你是哪里人18.wav",
+      "duration_sec": 4.32
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人19.wav",
+      "processed": "你是哪里人19.wav",
+      "duration_sec": 3.58
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人2.wav",
+      "processed": "你是哪里人2.wav",
+      "duration_sec": 3.83
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人20.wav",
+      "processed": "你是哪里人20.wav",
+      "duration_sec": 3.41
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人21.wav",
+      "processed": "你是哪里人21.wav",
+      "duration_sec": 3.69
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人22.wav",
+      "processed": "你是哪里人22.wav",
+      "duration_sec": 3.46
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人23.wav",
+      "processed": "你是哪里人23.wav",
+      "duration_sec": 3.81
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人24.wav",
+      "processed": "你是哪里人24.wav",
+      "duration_sec": 4.33
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人25.wav",
+      "processed": "你是哪里人25.wav",
+      "duration_sec": 3.22
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人26.wav",
+      "processed": "你是哪里人26.wav",
+      "duration_sec": 3.44
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人27.wav",
+      "processed": "你是哪里人27.wav",
+      "duration_sec": 4.85
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人28.wav",
+      "processed": "你是哪里人28.wav",
+      "duration_sec": 4.22
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人29.wav",
+      "processed": "你是哪里人29.wav",
+      "duration_sec": 3.51
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人3.wav",
+      "processed": "你是哪里人3.wav",
+      "duration_sec": 3.09
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人30.wav",
+      "processed": "你是哪里人30.wav",
+      "duration_sec": 4.65
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人31.wav",
+      "processed": "你是哪里人31.wav",
+      "duration_sec": 3.92
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人32.wav",
+      "processed": "你是哪里人32.wav",
+      "duration_sec": 3.73
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人33.wav",
+      "processed": "你是哪里人33.wav",
+      "duration_sec": 3.26
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人34.wav",
+      "processed": "你是哪里人34.wav",
+      "duration_sec": 3.48
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人35.wav",
+      "processed": "你是哪里人35.wav",
+      "duration_sec": 3.11
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人36.wav",
+      "processed": "你是哪里人36.wav",
+      "duration_sec": 3.99
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人37.wav",
+      "processed": "你是哪里人37.wav",
+      "duration_sec": 4.98
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人38.wav",
+      "processed": "你是哪里人38.wav",
+      "duration_sec": 3.02
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人39.wav",
+      "processed": "你是哪里人39.wav",
+      "duration_sec": 3.85
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人4.wav",
+      "processed": "你是哪里人4.wav",
+      "duration_sec": 3.42
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人40.wav",
+      "processed": "你是哪里人40.wav",
+      "duration_sec": 3.91
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人41.wav",
+      "processed": "你是哪里人41.wav",
+      "duration_sec": 4.85
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人42.wav",
+      "processed": "你是哪里人42.wav",
+      "duration_sec": 3.69
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人43.wav",
+      "processed": "你是哪里人43.wav",
+      "duration_sec": 5.41
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人44.wav",
+      "processed": "你是哪里人44.wav",
+      "duration_sec": 5.5
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人45.wav",
+      "processed": "你是哪里人45.wav",
+      "duration_sec": 4.27
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人46.wav",
+      "processed": "你是哪里人46.wav",
+      "duration_sec": 3.36
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人47.wav",
+      "processed": "你是哪里人47.wav",
+      "duration_sec": 4.46
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人48.wav",
+      "processed": "你是哪里人48.wav",
+      "duration_sec": 3.0
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人49.wav",
+      "processed": "你是哪里人49.wav",
+      "duration_sec": 3.71
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人5.wav",
+      "processed": "你是哪里人5.wav",
+      "duration_sec": 2.48
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人50.wav",
+      "processed": "你是哪里人50.wav",
+      "duration_sec": 3.37
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人6.wav",
+      "processed": "你是哪里人6.wav",
+      "duration_sec": 3.48
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人7.wav",
+      "processed": "你是哪里人7.wav",
+      "duration_sec": 3.49
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人8.wav",
+      "processed": "你是哪里人8.wav",
+      "duration_sec": 2.72
+    },
+    {
+      "phrase_id": "p02_你是哪里",
+      "phrase_text": "你是哪里人",
+      "original": "你是哪里人9.wav",
+      "processed": "你是哪里人9.wav",
+      "duration_sec": 3.8
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大.wav",
+      "processed": "你猜猜我多大.wav",
+      "duration_sec": 3.99
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大10.wav",
+      "processed": "你猜猜我多大10.wav",
+      "duration_sec": 4.86
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大11.wav",
+      "processed": "你猜猜我多大11.wav",
+      "duration_sec": 4.55
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大12.wav",
+      "processed": "你猜猜我多大12.wav",
+      "duration_sec": 5.0
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大13.wav",
+      "processed": "你猜猜我多大13.wav",
+      "duration_sec": 3.56
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大14.wav",
+      "processed": "你猜猜我多大14.wav",
+      "duration_sec": 4.38
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大15.wav",
+      "processed": "你猜猜我多大15.wav",
+      "duration_sec": 4.44
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大16.wav",
+      "processed": "你猜猜我多大16.wav",
+      "duration_sec": 5.07
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大17.wav",
+      "processed": "你猜猜我多大17.wav",
+      "duration_sec": 4.06
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大18.wav",
+      "processed": "你猜猜我多大18.wav",
+      "duration_sec": 4.56
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大19.wav",
+      "processed": "你猜猜我多大19.wav",
+      "duration_sec": 3.76
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大2.wav",
+      "processed": "你猜猜我多大2.wav",
+      "duration_sec": 3.49
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大20.wav",
+      "processed": "你猜猜我多大20.wav",
+      "duration_sec": 4.17
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大21.wav",
+      "processed": "你猜猜我多大21.wav",
+      "duration_sec": 3.98
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大22.wav",
+      "processed": "你猜猜我多大22.wav",
+      "duration_sec": 4.17
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大23.wav",
+      "processed": "你猜猜我多大23.wav",
+      "duration_sec": 4.14
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大24.wav",
+      "processed": "你猜猜我多大24.wav",
+      "duration_sec": 4.5
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大25.wav",
+      "processed": "你猜猜我多大25.wav",
+      "duration_sec": 4.16
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大26.wav",
+      "processed": "你猜猜我多大26.wav",
+      "duration_sec": 3.39
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大27.wav",
+      "processed": "你猜猜我多大27.wav",
+      "duration_sec": 3.92
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大28.wav",
+      "processed": "你猜猜我多大28.wav",
+      "duration_sec": 4.37
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大29.wav",
+      "processed": "你猜猜我多大29.wav",
+      "duration_sec": 4.09
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大3.wav",
+      "processed": "你猜猜我多大3.wav",
+      "duration_sec": 3.58
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大30.wav",
+      "processed": "你猜猜我多大30.wav",
+      "duration_sec": 4.32
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大31.wav",
+      "processed": "你猜猜我多大31.wav",
+      "duration_sec": 4.14
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大32.wav",
+      "processed": "你猜猜我多大32.wav",
+      "duration_sec": 4.29
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大33.wav",
+      "processed": "你猜猜我多大33.wav",
+      "duration_sec": 4.16
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大34.wav",
+      "processed": "你猜猜我多大34.wav",
+      "duration_sec": 3.58
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大35.wav",
+      "processed": "你猜猜我多大35.wav",
+      "duration_sec": 4.02
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大36.wav",
+      "processed": "你猜猜我多大36.wav",
+      "duration_sec": 4.26
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大37.wav",
+      "processed": "你猜猜我多大37.wav",
+      "duration_sec": 4.87
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大38.wav",
+      "processed": "你猜猜我多大38.wav",
+      "duration_sec": 4.34
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大39.wav",
+      "processed": "你猜猜我多大39.wav",
+      "duration_sec": 4.43
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大4.wav",
+      "processed": "你猜猜我多大4.wav",
+      "duration_sec": 3.6
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大40.wav",
+      "processed": "你猜猜我多大40.wav",
+      "duration_sec": 4.15
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大41.wav",
+      "processed": "你猜猜我多大41.wav",
+      "duration_sec": 4.24
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大42.wav",
+      "processed": "你猜猜我多大42.wav",
+      "duration_sec": 3.99
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大43.wav",
+      "processed": "你猜猜我多大43.wav",
+      "duration_sec": 4.35
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大44.wav",
+      "processed": "你猜猜我多大44.wav",
+      "duration_sec": 3.83
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大45.wav",
+      "processed": "你猜猜我多大45.wav",
+      "duration_sec": 4.02
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大46.wav",
+      "processed": "你猜猜我多大46.wav",
+      "duration_sec": 3.49
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大47.wav",
+      "processed": "你猜猜我多大47.wav",
+      "duration_sec": 3.9
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大48.wav",
+      "processed": "你猜猜我多大48.wav",
+      "duration_sec": 4.76
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大49.wav",
+      "processed": "你猜猜我多大49.wav",
+      "duration_sec": 3.85
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大5.wav",
+      "processed": "你猜猜我多大5.wav",
+      "duration_sec": 3.88
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大50.wav",
+      "processed": "你猜猜我多大50.wav",
+      "duration_sec": 3.92
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大6.wav",
+      "processed": "你猜猜我多大6.wav",
+      "duration_sec": 4.46
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大7.wav",
+      "processed": "你猜猜我多大7.wav",
+      "duration_sec": 4.232
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大8.wav",
+      "processed": "你猜猜我多大8.wav",
+      "duration_sec": 4.2
+    },
+    {
+      "phrase_id": "p03_你猜猜我",
+      "phrase_text": "你猜猜我多大",
+      "original": "你猜猜我多大9.wav",
+      "processed": "你猜猜我多大9.wav",
+      "duration_sec": 4.84
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面.wav",
+      "processed": "初次见面.wav",
+      "duration_sec": 3.73
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面10.wav",
+      "processed": "初次见面10.wav",
+      "duration_sec": 4.1
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面11.wav",
+      "processed": "初次见面11.wav",
+      "duration_sec": 3.9
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面12.wav",
+      "processed": "初次见面12.wav",
+      "duration_sec": 3.72
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面13.wav",
+      "processed": "初次见面13.wav",
+      "duration_sec": 3.65
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面14.wav",
+      "processed": "初次见面14.wav",
+      "duration_sec": 6.22
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面15.wav",
+      "processed": "初次见面15.wav",
+      "duration_sec": 2.97
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面16.wav",
+      "processed": "初次见面16.wav",
+      "duration_sec": 2.68
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面17.wav",
+      "processed": "初次见面17.wav",
+      "duration_sec": 3.17
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面18.wav",
+      "processed": "初次见面18.wav",
+      "duration_sec": 3.17
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面19.wav",
+      "processed": "初次见面19.wav",
+      "duration_sec": 3.45
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面2.wav",
+      "processed": "初次见面2.wav",
+      "duration_sec": 4.0
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面20.wav",
+      "processed": "初次见面20.wav",
+      "duration_sec": 3.83
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面21.wav",
+      "processed": "初次见面21.wav",
+      "duration_sec": 3.58
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面22.wav",
+      "processed": "初次见面22.wav",
+      "duration_sec": 3.6
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面23.wav",
+      "processed": "初次见面23.wav",
+      "duration_sec": 3.3
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面24.wav",
+      "processed": "初次见面24.wav",
+      "duration_sec": 3.06
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面25.wav",
+      "processed": "初次见面25.wav",
+      "duration_sec": 3.59
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面26.wav",
+      "processed": "初次见面26.wav",
+      "duration_sec": 3.17
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面27.wav",
+      "processed": "初次见面27.wav",
+      "duration_sec": 3.21
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面28.wav",
+      "processed": "初次见面28.wav",
+      "duration_sec": 3.36
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面29.wav",
+      "processed": "初次见面29.wav",
+      "duration_sec": 3.55
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面3.wav",
+      "processed": "初次见面3.wav",
+      "duration_sec": 3.98
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面30.wav",
+      "processed": "初次见面30.wav",
+      "duration_sec": 3.32
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面31.wav",
+      "processed": "初次见面31.wav",
+      "duration_sec": 3.25
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面32.wav",
+      "processed": "初次见面32.wav",
+      "duration_sec": 3.86
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面33.wav",
+      "processed": "初次见面33.wav",
+      "duration_sec": 2.91
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面34.wav",
+      "processed": "初次见面34.wav",
+      "duration_sec": 3.34
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面35.wav",
+      "processed": "初次见面35.wav",
+      "duration_sec": 2.92
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面36.wav",
+      "processed": "初次见面36.wav",
+      "duration_sec": 3.08
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面37.wav",
+      "processed": "初次见面37.wav",
+      "duration_sec": 3.62
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面38.wav",
+      "processed": "初次见面38.wav",
+      "duration_sec": 2.79
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面39.wav",
+      "processed": "初次见面39.wav",
+      "duration_sec": 3.28
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面4.wav",
+      "processed": "初次见面4.wav",
+      "duration_sec": 4.1
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面40.wav",
+      "processed": "初次见面40.wav",
+      "duration_sec": 3.18
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面41.wav",
+      "processed": "初次见面41.wav",
+      "duration_sec": 3.37
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面42.wav",
+      "processed": "初次见面42.wav",
+      "duration_sec": 3.4
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面43.wav",
+      "processed": "初次见面43.wav",
+      "duration_sec": 3.38
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面44.wav",
+      "processed": "初次见面44.wav",
+      "duration_sec": 3.41
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面45.wav",
+      "processed": "初次见面45.wav",
+      "duration_sec": 3.45
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面46.wav",
+      "processed": "初次见面46.wav",
+      "duration_sec": 3.67
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面47.wav",
+      "processed": "初次见面47.wav",
+      "duration_sec": 3.14
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面48.wav",
+      "processed": "初次见面48.wav",
+      "duration_sec": 3.23
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面49.wav",
+      "processed": "初次见面49.wav",
+      "duration_sec": 3.53
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面5.wav",
+      "processed": "初次见面5.wav",
+      "duration_sec": 4.07
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面50.wav",
+      "processed": "初次见面50.wav",
+      "duration_sec": 3.68
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面6.wav",
+      "processed": "初次见面6.wav",
+      "duration_sec": 4.07
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面7.wav",
+      "processed": "初次见面7.wav",
+      "duration_sec": 4.97
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面8.wav",
+      "processed": "初次见面8.wav",
+      "duration_sec": 3.86
+    },
+    {
+      "phrase_id": "p04_初次见面",
+      "phrase_text": "初次见面",
+      "original": "初次见面9.wav",
+      "processed": "初次见面9.wav",
+      "duration_sec": 4.3
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照1.wav",
+      "processed": "多多关照1.wav",
+      "duration_sec": 3.08
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照10.wav",
+      "processed": "多多关照10.wav",
+      "duration_sec": 2.61
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照11.wav",
+      "processed": "多多关照11.wav",
+      "duration_sec": 3.76
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照12.wav",
+      "processed": "多多关照12.wav",
+      "duration_sec": 2.79
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照13.wav",
+      "processed": "多多关照13.wav",
+      "duration_sec": 2.72
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照14.wav",
+      "processed": "多多关照14.wav",
+      "duration_sec": 3.24
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照15.wav",
+      "processed": "多多关照15.wav",
+      "duration_sec": 2.69
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照16.wav",
+      "processed": "多多关照16.wav",
+      "duration_sec": 2.49
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照17.wav",
+      "processed": "多多关照17.wav",
+      "duration_sec": 2.79
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照18.wav",
+      "processed": "多多关照18.wav",
+      "duration_sec": 3.37
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照19.wav",
+      "processed": "多多关照19.wav",
+      "duration_sec": 2.61
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照2.wav",
+      "processed": "多多关照2.wav",
+      "duration_sec": 2.76
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照20.wav",
+      "processed": "多多关照20.wav",
+      "duration_sec": 3.09
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照21.wav",
+      "processed": "多多关照21.wav",
+      "duration_sec": 3.5
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照22.wav",
+      "processed": "多多关照22.wav",
+      "duration_sec": 2.9
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照23.wav",
+      "processed": "多多关照23.wav",
+      "duration_sec": 3.04
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照24.wav",
+      "processed": "多多关照24.wav",
+      "duration_sec": 2.62
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照25.wav",
+      "processed": "多多关照25.wav",
+      "duration_sec": 2.82
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照26.wav",
+      "processed": "多多关照26.wav",
+      "duration_sec": 2.58
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照27.wav",
+      "processed": "多多关照27.wav",
+      "duration_sec": 3.01
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照28.wav",
+      "processed": "多多关照28.wav",
+      "duration_sec": 2.92
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照29.wav",
+      "processed": "多多关照29.wav",
+      "duration_sec": 2.78
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照3.wav",
+      "processed": "多多关照3.wav",
+      "duration_sec": 2.36
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照30.wav",
+      "processed": "多多关照30.wav",
+      "duration_sec": 2.94
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照31.wav",
+      "processed": "多多关照31.wav",
+      "duration_sec": 3.7
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照32.wav",
+      "processed": "多多关照32.wav",
+      "duration_sec": 3.39
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照33.wav",
+      "processed": "多多关照33.wav",
+      "duration_sec": 2.64
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照34.wav",
+      "processed": "多多关照34.wav",
+      "duration_sec": 3.2
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照35.wav",
+      "processed": "多多关照35.wav",
+      "duration_sec": 2.78
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照36.wav",
+      "processed": "多多关照36.wav",
+      "duration_sec": 2.75
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照37.wav",
+      "processed": "多多关照37.wav",
+      "duration_sec": 3.25
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照38.wav",
+      "processed": "多多关照38.wav",
+      "duration_sec": 2.96
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照39.wav",
+      "processed": "多多关照39.wav",
+      "duration_sec": 3.18
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照4.wav",
+      "processed": "多多关照4.wav",
+      "duration_sec": 2.63
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照40.wav",
+      "processed": "多多关照40.wav",
+      "duration_sec": 3.21
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照41.wav",
+      "processed": "多多关照41.wav",
+      "duration_sec": 2.83
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照42.wav",
+      "processed": "多多关照42.wav",
+      "duration_sec": 2.77
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照43.wav",
+      "processed": "多多关照43.wav",
+      "duration_sec": 2.66
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照44.wav",
+      "processed": "多多关照44.wav",
+      "duration_sec": 2.83
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照45.wav",
+      "processed": "多多关照45.wav",
+      "duration_sec": 2.96
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照46.wav",
+      "processed": "多多关照46.wav",
+      "duration_sec": 3.11
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照47.wav",
+      "processed": "多多关照47.wav",
+      "duration_sec": 3.52
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照48.wav",
+      "processed": "多多关照48.wav",
+      "duration_sec": 3.42
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照49.wav",
+      "processed": "多多关照49.wav",
+      "duration_sec": 4.16
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照5.wav",
+      "processed": "多多关照5.wav",
+      "duration_sec": 3.08
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照50.wav",
+      "processed": "多多关照50.wav",
+      "duration_sec": 3.19
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照6.wav",
+      "processed": "多多关照6.wav",
+      "duration_sec": 2.92
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照7.wav",
+      "processed": "多多关照7.wav",
+      "duration_sec": 2.34
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照8.wav",
+      "processed": "多多关照8.wav",
+      "duration_sec": 2.51
+    },
+    {
+      "phrase_id": "p05_多多关照",
+      "phrase_text": "多多关照",
+      "original": "多多关照9.wav",
+      "processed": "多多关照9.wav",
+      "duration_sec": 2.93
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你.wav",
+      "processed": "很高兴认识你.wav",
+      "duration_sec": 4.55
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你1.wav",
+      "processed": "很高兴认识你1.wav",
+      "duration_sec": 4.2
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你10.wav",
+      "processed": "很高兴认识你10.wav",
+      "duration_sec": 3.272
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你11.wav",
+      "processed": "很高兴认识你11.wav",
+      "duration_sec": 3.85
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你12.wav",
+      "processed": "很高兴认识你12.wav",
+      "duration_sec": 4.04
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你13.wav",
+      "processed": "很高兴认识你13.wav",
+      "duration_sec": 4.07
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你14.wav",
+      "processed": "很高兴认识你14.wav",
+      "duration_sec": 3.6
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你15.wav",
+      "processed": "很高兴认识你15.wav",
+      "duration_sec": 3.74
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你16.wav",
+      "processed": "很高兴认识你16.wav",
+      "duration_sec": 3.81
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你17.wav",
+      "processed": "很高兴认识你17.wav",
+      "duration_sec": 5.76
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你18.wav",
+      "processed": "很高兴认识你18.wav",
+      "duration_sec": 7.242
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你19.wav",
+      "processed": "很高兴认识你19.wav",
+      "duration_sec": 5.01
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你2.wav",
+      "processed": "很高兴认识你2.wav",
+      "duration_sec": 4.06
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你20.wav",
+      "processed": "很高兴认识你20.wav",
+      "duration_sec": 3.6
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你21.wav",
+      "processed": "很高兴认识你21.wav",
+      "duration_sec": 3.42
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你22.wav",
+      "processed": "很高兴认识你22.wav",
+      "duration_sec": 3.96
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你23.wav",
+      "processed": "很高兴认识你23.wav",
+      "duration_sec": 3.88
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你24.wav",
+      "processed": "很高兴认识你24.wav",
+      "duration_sec": 4.04
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你25.wav",
+      "processed": "很高兴认识你25.wav",
+      "duration_sec": 4.7
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你26.wav",
+      "processed": "很高兴认识你26.wav",
+      "duration_sec": 2.81
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你27.wav",
+      "processed": "很高兴认识你27.wav",
+      "duration_sec": 4.01
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你28.wav",
+      "processed": "很高兴认识你28.wav",
+      "duration_sec": 3.38
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你29.wav",
+      "processed": "很高兴认识你29.wav",
+      "duration_sec": 3.33
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你3.wav",
+      "processed": "很高兴认识你3.wav",
+      "duration_sec": 3.45
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你30.wav",
+      "processed": "很高兴认识你30.wav",
+      "duration_sec": 3.52
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你31.wav",
+      "processed": "很高兴认识你31.wav",
+      "duration_sec": 4.11
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你32.wav",
+      "processed": "很高兴认识你32.wav",
+      "duration_sec": 4.35
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你33.wav",
+      "processed": "很高兴认识你33.wav",
+      "duration_sec": 2.83
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你34.wav",
+      "processed": "很高兴认识你34.wav",
+      "duration_sec": 4.92
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你35.wav",
+      "processed": "很高兴认识你35.wav",
+      "duration_sec": 4.84
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你36.wav",
+      "processed": "很高兴认识你36.wav",
+      "duration_sec": 5.66
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你37.wav",
+      "processed": "很高兴认识你37.wav",
+      "duration_sec": 4.49
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你38.wav",
+      "processed": "很高兴认识你38.wav",
+      "duration_sec": 3.64
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你39.wav",
+      "processed": "很高兴认识你39.wav",
+      "duration_sec": 4.41
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你4.wav",
+      "processed": "很高兴认识你4.wav",
+      "duration_sec": 4.24
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你40.wav",
+      "processed": "很高兴认识你40.wav",
+      "duration_sec": 3.94
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你41.wav",
+      "processed": "很高兴认识你41.wav",
+      "duration_sec": 3.86
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你42.wav",
+      "processed": "很高兴认识你42.wav",
+      "duration_sec": 6.54
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你43.wav",
+      "processed": "很高兴认识你43.wav",
+      "duration_sec": 4.89
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你44.wav",
+      "processed": "很高兴认识你44.wav",
+      "duration_sec": 5.11
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你45.wav",
+      "processed": "很高兴认识你45.wav",
+      "duration_sec": 4.85
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你46.wav",
+      "processed": "很高兴认识你46.wav",
+      "duration_sec": 4.13
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你47.wav",
+      "processed": "很高兴认识你47.wav",
+      "duration_sec": 3.85
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你48.wav",
+      "processed": "很高兴认识你48.wav",
+      "duration_sec": 5.81
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你49.wav",
+      "processed": "很高兴认识你49.wav",
+      "duration_sec": 4.28
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你5.wav",
+      "processed": "很高兴认识你5.wav",
+      "duration_sec": 3.71
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你50.wav",
+      "processed": "很高兴认识你50.wav",
+      "duration_sec": 4.58
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你6.wav",
+      "processed": "很高兴认识你6.wav",
+      "duration_sec": 3.9
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你7.wav",
+      "processed": "很高兴认识你7.wav",
+      "duration_sec": 3.42
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你8.wav",
+      "processed": "很高兴认识你8.wav",
+      "duration_sec": 4.52
+    },
+    {
+      "phrase_id": "p06_很高兴认",
+      "phrase_text": "很高兴认识你",
+      "original": "很高兴认识你9.wav",
+      "processed": "很高兴认识你9.wav",
+      "duration_sec": 4.76
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程.wav",
+      "processed": "我叫李朋程.wav",
+      "duration_sec": 4.15
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程10.wav",
+      "processed": "我叫李朋程10.wav",
+      "duration_sec": 3.14
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程11.wav",
+      "processed": "我叫李朋程11.wav",
+      "duration_sec": 3.42
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程12.wav",
+      "processed": "我叫李朋程12.wav",
+      "duration_sec": 3.59
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程13.wav",
+      "processed": "我叫李朋程13.wav",
+      "duration_sec": 3.6
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程14.wav",
+      "processed": "我叫李朋程14.wav",
+      "duration_sec": 4.05
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程15.wav",
+      "processed": "我叫李朋程15.wav",
+      "duration_sec": 3.26
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程16.wav",
+      "processed": "我叫李朋程16.wav",
+      "duration_sec": 3.0
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程17.wav",
+      "processed": "我叫李朋程17.wav",
+      "duration_sec": 3.45
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程18.wav",
+      "processed": "我叫李朋程18.wav",
+      "duration_sec": 3.69
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程19.wav",
+      "processed": "我叫李朋程19.wav",
+      "duration_sec": 2.88
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程2.wav",
+      "processed": "我叫李朋程2.wav",
+      "duration_sec": 3.68
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程20.wav",
+      "processed": "我叫李朋程20.wav",
+      "duration_sec": 3.61
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程21.wav",
+      "processed": "我叫李朋程21.wav",
+      "duration_sec": 3.08
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程22.wav",
+      "processed": "我叫李朋程22.wav",
+      "duration_sec": 3.24
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程23.wav",
+      "processed": "我叫李朋程23.wav",
+      "duration_sec": 3.08
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程24.wav",
+      "processed": "我叫李朋程24.wav",
+      "duration_sec": 2.94
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程25.wav",
+      "processed": "我叫李朋程25.wav",
+      "duration_sec": 2.93
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程26.wav",
+      "processed": "我叫李朋程26.wav",
+      "duration_sec": 2.45
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程27.wav",
+      "processed": "我叫李朋程27.wav",
+      "duration_sec": 4.39
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程28.wav",
+      "processed": "我叫李朋程28.wav",
+      "duration_sec": 2.64
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程29.wav",
+      "processed": "我叫李朋程29.wav",
+      "duration_sec": 2.52
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程3.wav",
+      "processed": "我叫李朋程3.wav",
+      "duration_sec": 3.91
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程30.wav",
+      "processed": "我叫李朋程30.wav",
+      "duration_sec": 2.76
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程31.wav",
+      "processed": "我叫李朋程31.wav",
+      "duration_sec": 3.85
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程32.wav",
+      "processed": "我叫李朋程32.wav",
+      "duration_sec": 3.59
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程33.wav",
+      "processed": "我叫李朋程33.wav",
+      "duration_sec": 2.93
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程34.wav",
+      "processed": "我叫李朋程34.wav",
+      "duration_sec": 2.53
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程35.wav",
+      "processed": "我叫李朋程35.wav",
+      "duration_sec": 2.8
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程36.wav",
+      "processed": "我叫李朋程36.wav",
+      "duration_sec": 2.84
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程37.wav",
+      "processed": "我叫李朋程37.wav",
+      "duration_sec": 2.98
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程38.wav",
+      "processed": "我叫李朋程38.wav",
+      "duration_sec": 3.3
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程39.wav",
+      "processed": "我叫李朋程39.wav",
+      "duration_sec": 2.86
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程4.wav",
+      "processed": "我叫李朋程4.wav",
+      "duration_sec": 3.6
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程40.wav",
+      "processed": "我叫李朋程40.wav",
+      "duration_sec": 2.81
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程41.wav",
+      "processed": "我叫李朋程41.wav",
+      "duration_sec": 2.76
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程42.wav",
+      "processed": "我叫李朋程42.wav",
+      "duration_sec": 2.74
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程43.wav",
+      "processed": "我叫李朋程43.wav",
+      "duration_sec": 5.496
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程44.wav",
+      "processed": "我叫李朋程44.wav",
+      "duration_sec": 3.12
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程45.wav",
+      "processed": "我叫李朋程45.wav",
+      "duration_sec": 2.78
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程46.wav",
+      "processed": "我叫李朋程46.wav",
+      "duration_sec": 2.76
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程47.wav",
+      "processed": "我叫李朋程47.wav",
+      "duration_sec": 2.81
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程48.wav",
+      "processed": "我叫李朋程48.wav",
+      "duration_sec": 2.96
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程49.wav",
+      "processed": "我叫李朋程49.wav",
+      "duration_sec": 2.78
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程5.wav",
+      "processed": "我叫李朋程5.wav",
+      "duration_sec": 3.89
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程50.wav",
+      "processed": "我叫李朋程50.wav",
+      "duration_sec": 2.43
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程6.wav",
+      "processed": "我叫李朋程6.wav",
+      "duration_sec": 3.41
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程7.wav",
+      "processed": "我叫李朋程7.wav",
+      "duration_sec": 3.88
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程8.wav",
+      "processed": "我叫李朋程8.wav",
+      "duration_sec": 3.24
+    },
+    {
+      "phrase_id": "p07_我叫李朋",
+      "phrase_text": "我叫李朋程",
+      "original": "我叫李朋程9.wav",
+      "processed": "我叫李朋程9.wav",
+      "duration_sec": 3.51
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班.wav",
+      "processed": "我平时在北京上班.wav",
+      "duration_sec": 4.89
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班10.wav",
+      "processed": "我平时在北京上班10.wav",
+      "duration_sec": 6.04
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班11.wav",
+      "processed": "我平时在北京上班11.wav",
+      "duration_sec": 5.51
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班12.wav",
+      "processed": "我平时在北京上班12.wav",
+      "duration_sec": 6.7
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班13.wav",
+      "processed": "我平时在北京上班13.wav",
+      "duration_sec": 5.1
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班14.wav",
+      "processed": "我平时在北京上班14.wav",
+      "duration_sec": 6.2
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班15.wav",
+      "processed": "我平时在北京上班15.wav",
+      "duration_sec": 6.52
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班16.wav",
+      "processed": "我平时在北京上班16.wav",
+      "duration_sec": 5.78
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班17.wav",
+      "processed": "我平时在北京上班17.wav",
+      "duration_sec": 5.84
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班18.wav",
+      "processed": "我平时在北京上班18.wav",
+      "duration_sec": 7.14
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班19.wav",
+      "processed": "我平时在北京上班19.wav",
+      "duration_sec": 4.44
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班2.wav",
+      "processed": "我平时在北京上班2.wav",
+      "duration_sec": 5.19
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班20.wav",
+      "processed": "我平时在北京上班20.wav",
+      "duration_sec": 5.42
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班21.wav",
+      "processed": "我平时在北京上班21.wav",
+      "duration_sec": 5.3
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班22.wav",
+      "processed": "我平时在北京上班22.wav",
+      "duration_sec": 3.44
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班23.wav",
+      "processed": "我平时在北京上班23.wav",
+      "duration_sec": 5.01
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班24.wav",
+      "processed": "我平时在北京上班24.wav",
+      "duration_sec": 5.3
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班25.wav",
+      "processed": "我平时在北京上班25.wav",
+      "duration_sec": 4.98
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班26.wav",
+      "processed": "我平时在北京上班26.wav",
+      "duration_sec": 4.32
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班27.wav",
+      "processed": "我平时在北京上班27.wav",
+      "duration_sec": 5.44
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班28.wav",
+      "processed": "我平时在北京上班28.wav",
+      "duration_sec": 4.88
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班29.wav",
+      "processed": "我平时在北京上班29.wav",
+      "duration_sec": 4.31
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班3.wav",
+      "processed": "我平时在北京上班3.wav",
+      "duration_sec": 4.47
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班30.wav",
+      "processed": "我平时在北京上班30.wav",
+      "duration_sec": 4.16
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班31.wav",
+      "processed": "我平时在北京上班31.wav",
+      "duration_sec": 5.38
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班32.wav",
+      "processed": "我平时在北京上班32.wav",
+      "duration_sec": 4.89
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班33.wav",
+      "processed": "我平时在北京上班33.wav",
+      "duration_sec": 4.7
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班34.wav",
+      "processed": "我平时在北京上班34.wav",
+      "duration_sec": 4.06
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班35.wav",
+      "processed": "我平时在北京上班35.wav",
+      "duration_sec": 4.96
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班36.wav",
+      "processed": "我平时在北京上班36.wav",
+      "duration_sec": 4.25
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班37.wav",
+      "processed": "我平时在北京上班37.wav",
+      "duration_sec": 3.9
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班38.wav",
+      "processed": "我平时在北京上班38.wav",
+      "duration_sec": 4.39
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班39.wav",
+      "processed": "我平时在北京上班39.wav",
+      "duration_sec": 4.11
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班4.wav",
+      "processed": "我平时在北京上班4.wav",
+      "duration_sec": 4.37
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班40.wav",
+      "processed": "我平时在北京上班40.wav",
+      "duration_sec": 4.28
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班41.wav",
+      "processed": "我平时在北京上班41.wav",
+      "duration_sec": 4.12
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班42.wav",
+      "processed": "我平时在北京上班42.wav",
+      "duration_sec": 4.04
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班43.wav",
+      "processed": "我平时在北京上班43.wav",
+      "duration_sec": 3.68
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班44.wav",
+      "processed": "我平时在北京上班44.wav",
+      "duration_sec": 3.99
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班45.wav",
+      "processed": "我平时在北京上班45.wav",
+      "duration_sec": 3.81
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班46.wav",
+      "processed": "我平时在北京上班46.wav",
+      "duration_sec": 3.87
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班47.wav",
+      "processed": "我平时在北京上班47.wav",
+      "duration_sec": 3.6
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班48.wav",
+      "processed": "我平时在北京上班48.wav",
+      "duration_sec": 3.93
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班49.wav",
+      "processed": "我平时在北京上班49.wav",
+      "duration_sec": 3.96
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班5.wav",
+      "processed": "我平时在北京上班5.wav",
+      "duration_sec": 4.61
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班50.wav",
+      "processed": "我平时在北京上班50.wav",
+      "duration_sec": 3.84
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班6.wav",
+      "processed": "我平时在北京上班6.wav",
+      "duration_sec": 5.14
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班7.wav",
+      "processed": "我平时在北京上班7.wav",
+      "duration_sec": 4.65
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班8.wav",
+      "processed": "我平时在北京上班8.wav",
+      "duration_sec": 4.68
+    },
+    {
+      "phrase_id": "p08_我平时在",
+      "phrase_text": "我平时在北京上班",
+      "original": "我平时在北京上班9.wav",
+      "processed": "我平时在北京上班9.wav",
+      "duration_sec": 5.01
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人.wav",
+      "processed": "我是内蒙古人.wav",
+      "duration_sec": 3.88
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人10.wav",
+      "processed": "我是内蒙古人10.wav",
+      "duration_sec": 3.81
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人11.wav",
+      "processed": "我是内蒙古人11.wav",
+      "duration_sec": 3.43
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人12.wav",
+      "processed": "我是内蒙古人12.wav",
+      "duration_sec": 5.02
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人13.wav",
+      "processed": "我是内蒙古人13.wav",
+      "duration_sec": 5.15
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人14.wav",
+      "processed": "我是内蒙古人14.wav",
+      "duration_sec": 4.61
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人15.wav",
+      "processed": "我是内蒙古人15.wav",
+      "duration_sec": 4.73
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人16.wav",
+      "processed": "我是内蒙古人16.wav",
+      "duration_sec": 4.04
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人17.wav",
+      "processed": "我是内蒙古人17.wav",
+      "duration_sec": 3.5
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人18.wav",
+      "processed": "我是内蒙古人18.wav",
+      "duration_sec": 4.87
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人19.wav",
+      "processed": "我是内蒙古人19.wav",
+      "duration_sec": 4.91
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人2.wav",
+      "processed": "我是内蒙古人2.wav",
+      "duration_sec": 3.83
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人20.wav",
+      "processed": "我是内蒙古人20.wav",
+      "duration_sec": 5.27
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人21.wav",
+      "processed": "我是内蒙古人21.wav",
+      "duration_sec": 4.38
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人22.wav",
+      "processed": "我是内蒙古人22.wav",
+      "duration_sec": 4.99
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人23.wav",
+      "processed": "我是内蒙古人23.wav",
+      "duration_sec": 4.62
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人24.wav",
+      "processed": "我是内蒙古人24.wav",
+      "duration_sec": 4.25
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人25.wav",
+      "processed": "我是内蒙古人25.wav",
+      "duration_sec": 3.89
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人26.wav",
+      "processed": "我是内蒙古人26.wav",
+      "duration_sec": 4.64
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人27.wav",
+      "processed": "我是内蒙古人27.wav",
+      "duration_sec": 4.24
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人28.wav",
+      "processed": "我是内蒙古人28.wav",
+      "duration_sec": 4.44
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人29.wav",
+      "processed": "我是内蒙古人29.wav",
+      "duration_sec": 4.03
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人3.wav",
+      "processed": "我是内蒙古人3.wav",
+      "duration_sec": 2.68
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人30.wav",
+      "processed": "我是内蒙古人30.wav",
+      "duration_sec": 4.49
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人31.wav",
+      "processed": "我是内蒙古人31.wav",
+      "duration_sec": 4.64
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人32.wav",
+      "processed": "我是内蒙古人32.wav",
+      "duration_sec": 4.39
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人33.wav",
+      "processed": "我是内蒙古人33.wav",
+      "duration_sec": 4.12
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人34.wav",
+      "processed": "我是内蒙古人34.wav",
+      "duration_sec": 3.96
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人35.wav",
+      "processed": "我是内蒙古人35.wav",
+      "duration_sec": 3.4
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人36.wav",
+      "processed": "我是内蒙古人36.wav",
+      "duration_sec": 3.7
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人37.wav",
+      "processed": "我是内蒙古人37.wav",
+      "duration_sec": 3.97
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人38.wav",
+      "processed": "我是内蒙古人38.wav",
+      "duration_sec": 3.82
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人39.wav",
+      "processed": "我是内蒙古人39.wav",
+      "duration_sec": 5.03
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人4.wav",
+      "processed": "我是内蒙古人4.wav",
+      "duration_sec": 2.48
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人40.wav",
+      "processed": "我是内蒙古人40.wav",
+      "duration_sec": 3.89
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人41.wav",
+      "processed": "我是内蒙古人41.wav",
+      "duration_sec": 3.74
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人42.wav",
+      "processed": "我是内蒙古人42.wav",
+      "duration_sec": 3.97
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人43.wav",
+      "processed": "我是内蒙古人43.wav",
+      "duration_sec": 3.91
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人44.wav",
+      "processed": "我是内蒙古人44.wav",
+      "duration_sec": 4.17
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人45.wav",
+      "processed": "我是内蒙古人45.wav",
+      "duration_sec": 3.66
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人46.wav",
+      "processed": "我是内蒙古人46.wav",
+      "duration_sec": 3.3
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人47.wav",
+      "processed": "我是内蒙古人47.wav",
+      "duration_sec": 4.38
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人48.wav",
+      "processed": "我是内蒙古人48.wav",
+      "duration_sec": 4.49
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人49.wav",
+      "processed": "我是内蒙古人49.wav",
+      "duration_sec": 3.89
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人5.wav",
+      "processed": "我是内蒙古人5.wav",
+      "duration_sec": 4.42
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人50.wav",
+      "processed": "我是内蒙古人50.wav",
+      "duration_sec": 4.14
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人6.wav",
+      "processed": "我是内蒙古人6.wav",
+      "duration_sec": 2.82
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人7.wav",
+      "processed": "我是内蒙古人7.wav",
+      "duration_sec": 4.21
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人8.wav",
+      "processed": "我是内蒙古人8.wav",
+      "duration_sec": 3.43
+    },
+    {
+      "phrase_id": "p09_我是内蒙",
+      "phrase_text": "我是内蒙古人",
+      "original": "我是内蒙古人9.wav",
+      "processed": "我是内蒙古人9.wav",
+      "duration_sec": 4.29
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古.wav",
+      "processed": "我来自内蒙古.wav",
+      "duration_sec": 3.9
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古10.wav",
+      "processed": "我来自内蒙古10.wav",
+      "duration_sec": 3.26
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古11.wav",
+      "processed": "我来自内蒙古11.wav",
+      "duration_sec": 3.59
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古12.wav",
+      "processed": "我来自内蒙古12.wav",
+      "duration_sec": 3.43
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古13.wav",
+      "processed": "我来自内蒙古13.wav",
+      "duration_sec": 2.78
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古14.wav",
+      "processed": "我来自内蒙古14.wav",
+      "duration_sec": 3.28
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古15.wav",
+      "processed": "我来自内蒙古15.wav",
+      "duration_sec": 3.11
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古16.wav",
+      "processed": "我来自内蒙古16.wav",
+      "duration_sec": 3.13
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古17.wav",
+      "processed": "我来自内蒙古17.wav",
+      "duration_sec": 2.83
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古18.wav",
+      "processed": "我来自内蒙古18.wav",
+      "duration_sec": 3.12
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古19.wav",
+      "processed": "我来自内蒙古19.wav",
+      "duration_sec": 3.46
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古2.wav",
+      "processed": "我来自内蒙古2.wav",
+      "duration_sec": 3.9
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古20.wav",
+      "processed": "我来自内蒙古20.wav",
+      "duration_sec": 3.29
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古21.wav",
+      "processed": "我来自内蒙古21.wav",
+      "duration_sec": 2.88
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古22.wav",
+      "processed": "我来自内蒙古22.wav",
+      "duration_sec": 3.09
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古23.wav",
+      "processed": "我来自内蒙古23.wav",
+      "duration_sec": 3.06
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古24.wav",
+      "processed": "我来自内蒙古24.wav",
+      "duration_sec": 2.86
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古25.wav",
+      "processed": "我来自内蒙古25.wav",
+      "duration_sec": 3.87
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古26.wav",
+      "processed": "我来自内蒙古26.wav",
+      "duration_sec": 2.87
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古27.wav",
+      "processed": "我来自内蒙古27.wav",
+      "duration_sec": 3.13
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古28.wav",
+      "processed": "我来自内蒙古28.wav",
+      "duration_sec": 3.17
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古29.wav",
+      "processed": "我来自内蒙古29.wav",
+      "duration_sec": 3.26
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古3.wav",
+      "processed": "我来自内蒙古3.wav",
+      "duration_sec": 4.11
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古30.wav",
+      "processed": "我来自内蒙古30.wav",
+      "duration_sec": 3.03
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古31.wav",
+      "processed": "我来自内蒙古31.wav",
+      "duration_sec": 3.32
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古32.wav",
+      "processed": "我来自内蒙古32.wav",
+      "duration_sec": 3.32
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古33.wav",
+      "processed": "我来自内蒙古33.wav",
+      "duration_sec": 3.3
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古34.wav",
+      "processed": "我来自内蒙古34.wav",
+      "duration_sec": 3.59
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古35.wav",
+      "processed": "我来自内蒙古35.wav",
+      "duration_sec": 2.5
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古36.wav",
+      "processed": "我来自内蒙古36.wav",
+      "duration_sec": 3.38
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古37.wav",
+      "processed": "我来自内蒙古37.wav",
+      "duration_sec": 3.17
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古38.wav",
+      "processed": "我来自内蒙古38.wav",
+      "duration_sec": 3.13
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古39.wav",
+      "processed": "我来自内蒙古39.wav",
+      "duration_sec": 3.04
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古4.wav",
+      "processed": "我来自内蒙古4.wav",
+      "duration_sec": 3.11
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古40.wav",
+      "processed": "我来自内蒙古40.wav",
+      "duration_sec": 3.12
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古41.wav",
+      "processed": "我来自内蒙古41.wav",
+      "duration_sec": 2.79
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古42.wav",
+      "processed": "我来自内蒙古42.wav",
+      "duration_sec": 2.85
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古43.wav",
+      "processed": "我来自内蒙古43.wav",
+      "duration_sec": 3.77
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古44.wav",
+      "processed": "我来自内蒙古44.wav",
+      "duration_sec": 3.01
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古45.wav",
+      "processed": "我来自内蒙古45.wav",
+      "duration_sec": 2.58
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古46.wav",
+      "processed": "我来自内蒙古46.wav",
+      "duration_sec": 3.69
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古47.wav",
+      "processed": "我来自内蒙古47.wav",
+      "duration_sec": 2.77
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古48.wav",
+      "processed": "我来自内蒙古48.wav",
+      "duration_sec": 2.32
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古49.wav",
+      "processed": "我来自内蒙古49.wav",
+      "duration_sec": 2.56
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古5.wav",
+      "processed": "我来自内蒙古5.wav",
+      "duration_sec": 2.98
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古50.wav",
+      "processed": "我来自内蒙古50.wav",
+      "duration_sec": 3.32
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古6.wav",
+      "processed": "我来自内蒙古6.wav",
+      "duration_sec": 3.58
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古7.wav",
+      "processed": "我来自内蒙古7.wav",
+      "duration_sec": 2.84
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古8.wav",
+      "processed": "我来自内蒙古8.wav",
+      "duration_sec": 3.48
+    },
+    {
+      "phrase_id": "p10_我来自内",
+      "phrase_text": "我来自内蒙古",
+      "original": "我来自内蒙古9.wav",
+      "processed": "我来自内蒙古9.wav",
+      "duration_sec": 3.3
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋.wav",
+      "processed": "朋是朋友的朋.wav",
+      "duration_sec": 3.61
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋10.wav",
+      "processed": "朋是朋友的朋10.wav",
+      "duration_sec": 3.95
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋11.wav",
+      "processed": "朋是朋友的朋11.wav",
+      "duration_sec": 5.64
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋12.wav",
+      "processed": "朋是朋友的朋12.wav",
+      "duration_sec": 4.69
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋13.wav",
+      "processed": "朋是朋友的朋13.wav",
+      "duration_sec": 4.51
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋14.wav",
+      "processed": "朋是朋友的朋14.wav",
+      "duration_sec": 3.76
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋15.wav",
+      "processed": "朋是朋友的朋15.wav",
+      "duration_sec": 3.75
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋16.wav",
+      "processed": "朋是朋友的朋16.wav",
+      "duration_sec": 3.74
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋17.wav",
+      "processed": "朋是朋友的朋17.wav",
+      "duration_sec": 3.72
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋18.wav",
+      "processed": "朋是朋友的朋18.wav",
+      "duration_sec": 3.67
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋19.wav",
+      "processed": "朋是朋友的朋19.wav",
+      "duration_sec": 3.76
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋2.wav",
+      "processed": "朋是朋友的朋2.wav",
+      "duration_sec": 4.53
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋20.wav",
+      "processed": "朋是朋友的朋20.wav",
+      "duration_sec": 3.73
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋21.wav",
+      "processed": "朋是朋友的朋21.wav",
+      "duration_sec": 3.72
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋22.wav",
+      "processed": "朋是朋友的朋22.wav",
+      "duration_sec": 3.98
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋23.wav",
+      "processed": "朋是朋友的朋23.wav",
+      "duration_sec": 5.72
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋24.wav",
+      "processed": "朋是朋友的朋24.wav",
+      "duration_sec": 3.94
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋25.wav",
+      "processed": "朋是朋友的朋25.wav",
+      "duration_sec": 3.91
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋26.wav",
+      "processed": "朋是朋友的朋26.wav",
+      "duration_sec": 3.7
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋27.wav",
+      "processed": "朋是朋友的朋27.wav",
+      "duration_sec": 3.84
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋28.wav",
+      "processed": "朋是朋友的朋28.wav",
+      "duration_sec": 4.53
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋29.wav",
+      "processed": "朋是朋友的朋29.wav",
+      "duration_sec": 3.58
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋3.wav",
+      "processed": "朋是朋友的朋3.wav",
+      "duration_sec": 4.11
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋30.wav",
+      "processed": "朋是朋友的朋30.wav",
+      "duration_sec": 3.97
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋31.wav",
+      "processed": "朋是朋友的朋31.wav",
+      "duration_sec": 4.1
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋32.wav",
+      "processed": "朋是朋友的朋32.wav",
+      "duration_sec": 5.01
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋33.wav",
+      "processed": "朋是朋友的朋33.wav",
+      "duration_sec": 3.83
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋34.wav",
+      "processed": "朋是朋友的朋34.wav",
+      "duration_sec": 4.3
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋35.wav",
+      "processed": "朋是朋友的朋35.wav",
+      "duration_sec": 4.06
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋36.wav",
+      "processed": "朋是朋友的朋36.wav",
+      "duration_sec": 3.84
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋37.wav",
+      "processed": "朋是朋友的朋37.wav",
+      "duration_sec": 3.95
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋38.wav",
+      "processed": "朋是朋友的朋38.wav",
+      "duration_sec": 3.8
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋39.wav",
+      "processed": "朋是朋友的朋39.wav",
+      "duration_sec": 3.21
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋4.wav",
+      "processed": "朋是朋友的朋4.wav",
+      "duration_sec": 4.13
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋40.wav",
+      "processed": "朋是朋友的朋40.wav",
+      "duration_sec": 3.61
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋41.wav",
+      "processed": "朋是朋友的朋41.wav",
+      "duration_sec": 3.85
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋42.wav",
+      "processed": "朋是朋友的朋42.wav",
+      "duration_sec": 3.62
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋43.wav",
+      "processed": "朋是朋友的朋43.wav",
+      "duration_sec": 3.78
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋44.wav",
+      "processed": "朋是朋友的朋44.wav",
+      "duration_sec": 3.87
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋45.wav",
+      "processed": "朋是朋友的朋45.wav",
+      "duration_sec": 3.65
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋46.wav",
+      "processed": "朋是朋友的朋46.wav",
+      "duration_sec": 3.66
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋47.wav",
+      "processed": "朋是朋友的朋47.wav",
+      "duration_sec": 4.33
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋48.wav",
+      "processed": "朋是朋友的朋48.wav",
+      "duration_sec": 3.58
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋49.wav",
+      "processed": "朋是朋友的朋49.wav",
+      "duration_sec": 3.54
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋5.wav",
+      "processed": "朋是朋友的朋5.wav",
+      "duration_sec": 4.45
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋50.wav",
+      "processed": "朋是朋友的朋50.wav",
+      "duration_sec": 3.68
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋6.wav",
+      "processed": "朋是朋友的朋6.wav",
+      "duration_sec": 3.92
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋7.wav",
+      "processed": "朋是朋友的朋7.wav",
+      "duration_sec": 4.29
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋8.wav",
+      "processed": "朋是朋友的朋8.wav",
+      "duration_sec": 3.87
+    },
+    {
+      "phrase_id": "p11_朋是朋友",
+      "phrase_text": "朋是朋友的朋",
+      "original": "朋是朋友的朋9.wav",
+      "processed": "朋是朋友的朋9.wav",
+      "duration_sec": 4.06
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程1.wav",
+      "processed": "程是过程的程1.wav",
+      "duration_sec": 5.09
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程10.wav",
+      "processed": "程是过程的程10.wav",
+      "duration_sec": 4.85
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程11.wav",
+      "processed": "程是过程的程11.wav",
+      "duration_sec": 4.42
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程12.wav",
+      "processed": "程是过程的程12.wav",
+      "duration_sec": 4.53
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程13.wav",
+      "processed": "程是过程的程13.wav",
+      "duration_sec": 4.35
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程14.wav",
+      "processed": "程是过程的程14.wav",
+      "duration_sec": 4.26
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程15.wav",
+      "processed": "程是过程的程15.wav",
+      "duration_sec": 4.42
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程16.wav",
+      "processed": "程是过程的程16.wav",
+      "duration_sec": 3.7
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程17.wav",
+      "processed": "程是过程的程17.wav",
+      "duration_sec": 4.29
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程18.wav",
+      "processed": "程是过程的程18.wav",
+      "duration_sec": 3.76
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程19.wav",
+      "processed": "程是过程的程19.wav",
+      "duration_sec": 3.79
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程2.wav",
+      "processed": "程是过程的程2.wav",
+      "duration_sec": 4.22
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程20.wav",
+      "processed": "程是过程的程20.wav",
+      "duration_sec": 4.36
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程21.wav",
+      "processed": "程是过程的程21.wav",
+      "duration_sec": 4.82
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程22.wav",
+      "processed": "程是过程的程22.wav",
+      "duration_sec": 5.52
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程23.wav",
+      "processed": "程是过程的程23.wav",
+      "duration_sec": 3.51
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程24.wav",
+      "processed": "程是过程的程24.wav",
+      "duration_sec": 4.84
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程25.wav",
+      "processed": "程是过程的程25.wav",
+      "duration_sec": 4.81
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程26.wav",
+      "processed": "程是过程的程26.wav",
+      "duration_sec": 5.92
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程27.wav",
+      "processed": "程是过程的程27.wav",
+      "duration_sec": 4.01
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程28.wav",
+      "processed": "程是过程的程28.wav",
+      "duration_sec": 3.47
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程29.wav",
+      "processed": "程是过程的程29.wav",
+      "duration_sec": 4.75
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程3.wav",
+      "processed": "程是过程的程3.wav",
+      "duration_sec": 4.42
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程30.wav",
+      "processed": "程是过程的程30.wav",
+      "duration_sec": 3.97
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程31.wav",
+      "processed": "程是过程的程31.wav",
+      "duration_sec": 4.82
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程32.wav",
+      "processed": "程是过程的程32.wav",
+      "duration_sec": 5.47
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程33.wav",
+      "processed": "程是过程的程33.wav",
+      "duration_sec": 4.42
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程34.wav",
+      "processed": "程是过程的程34.wav",
+      "duration_sec": 4.31
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程35.wav",
+      "processed": "程是过程的程35.wav",
+      "duration_sec": 4.6
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程36.wav",
+      "processed": "程是过程的程36.wav",
+      "duration_sec": 4.07
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程37.wav",
+      "processed": "程是过程的程37.wav",
+      "duration_sec": 4.17
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程38.wav",
+      "processed": "程是过程的程38.wav",
+      "duration_sec": 4.06
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程39.wav",
+      "processed": "程是过程的程39.wav",
+      "duration_sec": 4.5
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程4.wav",
+      "processed": "程是过程的程4.wav",
+      "duration_sec": 7.432
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程40.wav",
+      "processed": "程是过程的程40.wav",
+      "duration_sec": 4.51
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程41.wav",
+      "processed": "程是过程的程41.wav",
+      "duration_sec": 4.02
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程42.wav",
+      "processed": "程是过程的程42.wav",
+      "duration_sec": 4.13
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程43.wav",
+      "processed": "程是过程的程43.wav",
+      "duration_sec": 4.58
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程44.wav",
+      "processed": "程是过程的程44.wav",
+      "duration_sec": 4.62
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程45.wav",
+      "processed": "程是过程的程45.wav",
+      "duration_sec": 4.09
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程46.wav",
+      "processed": "程是过程的程46.wav",
+      "duration_sec": 4.24
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程47.wav",
+      "processed": "程是过程的程47.wav",
+      "duration_sec": 3.98
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程48.wav",
+      "processed": "程是过程的程48.wav",
+      "duration_sec": 3.84
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程49.wav",
+      "processed": "程是过程的程49.wav",
+      "duration_sec": 4.06
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程5.wav",
+      "processed": "程是过程的程5.wav",
+      "duration_sec": 5.45
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程50.wav",
+      "processed": "程是过程的程50.wav",
+      "duration_sec": 3.87
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程6.wav",
+      "processed": "程是过程的程6.wav",
+      "duration_sec": 4.73
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程7.wav",
+      "processed": "程是过程的程7.wav",
+      "duration_sec": 4.89
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程8.wav",
+      "processed": "程是过程的程8.wav",
+      "duration_sec": 7.624
+    },
+    {
+      "phrase_id": "p12_程是过程",
+      "phrase_text": "程是过程的程",
+      "original": "程是过程的程9.wav",
+      "processed": "程是过程的程9.wav",
+      "duration_sec": 4.49
+    }
+  ]
+}

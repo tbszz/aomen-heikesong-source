@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -rf corpus/raw/*)",
+      "Bash(.venv/Scripts/python.exe corpus/extract_zip.py)"
+    ]
+  }
+}

@@ -42,3 +42,9 @@ signature_db.json
 Thumbs.db
 .vscode/
 .idea/
+
+# Corpus - allow wav files for training data
+corpus/*.wav
+corpus/**/*.wav
+!corpus/processed/
+corpus/processed/*.wav
